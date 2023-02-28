@@ -2,6 +2,7 @@
   "name": "bmouse",
   "private": true,
   "version": "0.0.0",
+  "homepage": "bmouse/",
   "type": "module",
   "scripts": {
     "dev": "vite",
