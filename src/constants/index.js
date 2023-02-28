@@ -17,7 +17,7 @@ import {
   farol,
 } from "../assets";
 
-export const navLinks = [
+/* export const navLinks = [
   {
     id: "/",
     title: "Home",
@@ -38,7 +38,7 @@ export const navLinks = [
     id: "/blog",
     title: "Blog",
   },
-];
+]; */
 
 export const features = [
   {
