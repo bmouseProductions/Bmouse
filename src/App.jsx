@@ -6,7 +6,7 @@ import Servicos from "./Pages/servicos/Servicos";
 import GalaxyBackground from "react-animated-stars";
 import Studio from "./Pages/studio/Studio";
 import Portfolio from "./Pages/portfolio/Portfolio";
-import Blog from "@/Pages/blog/blog";
+import Blog from "./Pages/blog/Blog";
 
 const App = () => {
   return (
