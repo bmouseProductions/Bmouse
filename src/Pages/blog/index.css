@@ -1,0 +1,122 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+  background-clip: border-box;
+  border: 1px solid rgba(33, 40, 50, 0.125);
+  border-radius: 0.35rem;
+}
+
+.card.lift {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+}
+.lift {
+  box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+  transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media (min-width: 992px) {
+  .post-preview-featured .post-preview-featured-img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.post-preview-featured .post-preview-featured-img {
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.35rem 1.35rem;
+}
+
+.post-preview-featured h5.card-title,
+.post-preview-featured .card-title.h5 {
+  font-size: 1.75rem;
+}
+
+.post-preview h5.card-title,
+.post-preview .card-title.h5 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.card-title {
+  margin-bottom: 0.5rem;
+}
+
+.post-preview-featured p.card-text {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.card-text:last-child {
+  margin-bottom: 0;
+}
+
+.post-preview .post-preview-meta {
+  display: flex;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+.post-preview .post-preview-meta .post-preview-meta-img {
+  height: 2.25rem;
+  width: 2.25rem;
+  border-radius: 100%;
+  margin-right: 0.5rem;
+  flex-shrink: 0;
+}
+.post-preview
+  .post-preview-meta
+  .post-preview-meta-details
+  .post-preview-meta-details-name {
+  font-size: 0.9rem;
+  line-height: 1;
+  margin-bottom: 0.25rem;
+}
+
+.post-preview
+  .post-preview-meta
+  .post-preview-meta-details
+  .post-preview-meta-details-date {
+  font-size: 0.75rem;
+  line-height: 1;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.35rem 1.35rem;
+}
+
+.post-preview h5.card-title,
+.post-preview .card-title.h5 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-footer:last-child {
+  border-radius: 0 0 0.35rem 0.35rem;
+}
+.card-footer {
+  padding: 1rem 1.35rem;
+  background-color: rgba(33, 40, 50, 0.03);
+  border-top: 1px solid rgba(33, 40, 50, 0.125);
+}
+
+.post-preview .post-preview-meta {
+  display: flex;
+  align-items: center;
+  margin-right: 0.5rem;
+}
