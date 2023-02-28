@@ -10,6 +10,7 @@ import {
   Testimonials,
 } from "../../components";
 import GalaxyBackground from "react-animated-stars";
+import Stars from "../../components/stars";
 
 const Home = () => {
   return (
