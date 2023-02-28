@@ -2,7 +2,7 @@
   "name": "bmouse",
   "private": true,
   "version": "0.0.0",
-  "homepage": "bmouse/",
+  "homepage": "bmouse1/",
   "type": "module",
   "scripts": {
     "dev": "vite",
