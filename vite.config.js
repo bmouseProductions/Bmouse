@@ -9,7 +9,7 @@ export default defineConfig({
 
 export default defineConfig({
   resolve: {
-    alias: [{ find: "@", replacement: "/src" }],
+    alias: [{ find: "@", replacement: "./src/**/*.{js,jsx}" }],
   },
   server: {
     fs: {
