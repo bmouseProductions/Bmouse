@@ -11,7 +11,7 @@ import Blog from "./Pages/blog/Blog";
 const App = () => {
   return (
     <BrowserRouter>
-      <GalaxyBackground starCount={50} key={1}>
+      <GalaxyBackground starCount={50} key={"akfsifs"}>
         <div className="bg-primary w-full overflow-hidden">
           <div className={`${styles.paddingX} ${styles.flexCenter}`}>
             <div className={`${styles.boxWidth}`}>
