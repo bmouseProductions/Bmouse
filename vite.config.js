@@ -8,7 +8,6 @@ export default defineConfig({
  */
 
 export default defineConfig({
-  plugins: [atomicPlugin(allAtomicCSSPaths)],
   resolve: {
     alias: [{ find: "@", replacement: "/src" }],
   },
