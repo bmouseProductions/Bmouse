@@ -24,8 +24,8 @@ const Servicos = () => {
         </div>
 
         <div className={`${estilos.section_padding}`}>
-          <div className="container">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 gap-6">
+          <div className="container mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-6">
               <div className="col-span-1">
                 <div
                   className={`${estilos.services__three_item} ${estilos.page}`}
@@ -68,11 +68,18 @@ const Servicos = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-span-1">
+              <div
+                className={`col-span-1 ${estilos.gradient}`}
+                style={{
+                  backgroundImage: `url(${service3})`,
+                  backgroundPosition: "center",
+                  backgroundSize: "cover",
+                  minHeight: "340px",
+                }}
+              >
                 <div
                   className={`${estilos.services__three_item} ${estilos.page}`}
                 >
-                  <img src={service3} alt="" style={{ height: "420px" }} />
                   <div
                     className={`${estilos.services__three_item_content} ${estilos.page}`}
                   >

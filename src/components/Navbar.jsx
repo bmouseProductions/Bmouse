@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
@@ -8,8 +9,10 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar ">
-      <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
+    <nav className="w-full flex py-6 justify-between items-center navbar relative z-10 ">
+      <Link to="/">
+        <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
+      </Link>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1 z-10">
         {navLinks.map((nav, index) => (
