@@ -7,7 +7,7 @@ import service4 from "../../assets/service_4.webp";
 import service6 from "../../assets/service_6.webp";
 import service7 from "../../assets/service_7.webp";
 
-import service9 from "../../assets/services-9.png";
+import service9 from "../../assets/adiovisual.svg";
 import estilos from "./index.module.css";
 
 const Servicos = () => {

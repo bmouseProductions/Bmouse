@@ -10,7 +10,7 @@ const GetStarted = () => {
       >
         <div className={`${styles.flexStart} rounded-full`}>
           <p className="font-poppins font-medium text-[18px] leading-[23px] mr-2">
-            <span className="text-gradient">Soliticar</span>
+            <span className="text-gradient">Solicite</span>
           </p>
           <img src={arrowUp} className="w-[23px] h-[23px] object-contain" />
         </div>

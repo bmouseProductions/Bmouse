@@ -6,7 +6,7 @@ import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./whitelogo-bmouse.svg";
 import quotes from "./quotes.svg";
-import robot from "./ratinhos.png";
+import robot from "./rato1.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";

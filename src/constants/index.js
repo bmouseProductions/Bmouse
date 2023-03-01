@@ -23,6 +23,10 @@ export const navLinks = [
     title: "Home",
   },
   {
+    id: "/sobre",
+    title: "Sobre",
+  },
+  {
     id: "/servicos",
     title: "Serviços",
   },
@@ -111,65 +115,25 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Fale Conosco",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "(34) 99930-6776",
       },
       {
-        name: "How it Works",
+        name: "Agência de Marketing Bmouse Productions Rua Dr. José Olímpio Borges, 134, Centro, Patos de Minas - MG.",
         link: "https://www.hoobank.com/how-it-works/",
       },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
     ],
   },
   {
-    title: "Community",
+    title: "Sedes e email",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        name: "Studios Bmouse Productions Rua Formiga, 565 B, Aurélio Caixeta, Patos de Minas - MG.",
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
-  },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "info@bmouseproductions.com",
       },
     ],
   },

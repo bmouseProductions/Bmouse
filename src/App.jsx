@@ -6,6 +6,7 @@ import Servicos from "./Pages/servicos/Servicos";
 import Studio from "./Pages/studio/Studio";
 import Portfolio from "./Pages/portfolio/Portfolio";
 import Blog from "./Pages/blog/Blog";
+import Sobre from "./Pages/sobre/Sobre";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
           <div className={`${styles.boxWidth}`}>
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/sobre" element={<Sobre />} />
               <Route path="/servicos" element={<Servicos />} />
               <Route path="/studiosbmouse" element={<Studio />} />
               <Route path="/portfolio" element={<Portfolio />} />
