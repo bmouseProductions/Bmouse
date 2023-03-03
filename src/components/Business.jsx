@@ -1,4 +1,4 @@
-import { features } from "../constants";
+import { features, services } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
@@ -26,29 +26,14 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 const Business = () => (
   <section className={layout.section}>
-    <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
-        A Bmouse Productions <br className="sm:block hidden" />
-      </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5 text-left`}>
-        Somos uma agência de criatividade, criada por Tom Gonçalves e Roberta
-        Almeida na “terra do rato”. A Disney é o lugar em que sonhos se tornam
-        reais, e, talvez, por ter nascido lá, sejamos especialistas em emocionar
-        tantas pessoas ao tornar realidade o que antes era inimaginável. A
-        BMouse retorna ao Brasil revolucionando o tradicional recurso de contar
-        histórias, mudando destinos e construindo o que vem depois do fim.
-      </p>
-
-      <Button
-        styles={`mt-10`}
-        text="Faça um orçamento"
-        target="_blank"
-        link="https://wa.me/5534997226999?text=Ol%C3%A1%21+Vim+pelo+Site+e+gostaria+de+um+or%C3%A7amento%21"
-      />
+    <div className={`${layout.sectionImg} flex-col`}>
+      {features.map((feature, index) => (
+        <FeatureCard key={feature.id} {...feature} index={index} />
+      ))}
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>
-      {features.map((feature, index) => (
+      {services.map((feature, index) => (
         <FeatureCard key={feature.id} {...feature} index={index} />
       ))}
     </div>

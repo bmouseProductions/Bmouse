@@ -40,6 +40,14 @@ import sorridentes from "./sorridents.svg";
 import triangulo from "./transtriangulo.svg";
 import whg from "./whg.svg";
 import zoomies from "./zoomies.svg";
+import audio from "./adiovisual.svg";
+import assesoria from "./assessoria.svg";
+import dev from "./dev.svg";
+import estrategia from "./estrategica.svg";
+import mkt from "./mktdigital.svg";
+import mktof from "./mktoff.svg";
+import perfomance from "./performance.svg";
+import produtos from "./produtosdigitais.svg";
 
 export {
   bill,
@@ -84,4 +92,12 @@ export {
   triangulo,
   whg,
   zoomies,
+  audio,
+  assesoria,
+  dev,
+  estrategia,
+  mkt,
+  mktof,
+  perfomance,
+  produtos,
 };

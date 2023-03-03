@@ -84,9 +84,10 @@ const Sobre = () => {
       <section className={layout.sectionReverse}>
         <div className={layout.sectionInfo}>
           <h2 className={`${styles.heading2} text-left`}>
-            O que nos <br />
-            torna{" "}
-            <span className="bg-[#e05673] rounded-bl-2xl p-1">diferentes?</span>
+            Como <br />{" "}
+            <span className="bg-[#e05673] rounded-bl-2xl p-1">
+              trabalhamos?
+            </span>
           </h2>
           <p
             className={`${styles.paragraph} max-w-[470px] mt-5 text-left border-l-4 px-2  border-l-[#e05673] rounded-xl`}

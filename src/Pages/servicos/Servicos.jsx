@@ -161,8 +161,6 @@ const Servicos = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-6 mt-10 mx-auto place-content-center text-center">
               <div className="col-span-1">
                 <div
                   className={`${estilos.services__three_item} ${estilos.page}`}

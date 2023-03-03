@@ -29,6 +29,14 @@ import {
   whg,
   zoomies,
   olhar,
+  audio,
+  produtos,
+  mktof,
+  assesoria,
+  estrategia,
+  mkt,
+  perfomance,
+  dev,
 } from "../assets";
 
 export const navLinks = [
@@ -61,24 +69,60 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Identidade Visual",
+    icon: audio,
+    title: "Produção Audiovisual",
     content:
-      "Criação de Logo, Impressos, Papelaria completa e Comunicação Interna",
+      "Produções esteticamente impecáveis que contam histórias emocionantes.",
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "Mídias Sociais",
+    icon: produtos,
+    title: "Criação de Produtos Digitais",
     content:
-      "Campanhas Performadas, Gerenciamento, Criação de Conteúdo e Estratégias de Conversão",
+      "Fornecer informações e conteúdos úteis é uma das melhores estratégias para atingir seus potenciais clientes.",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Endomarketing",
+    icon: mktof,
+    title: "Marketing Offline",
     content:
-      "Ações Internas, Valorização do Colaborador, Engajamento do Colaborador e Manuais de Treinamento",
+      "O marketing criativo e de qualidade precisa alcançar todos os públicos, em todos os lugares.",
+  },
+  {
+    id: "feature-8",
+    icon: perfomance,
+    title: "Performance",
+    content:
+      "Acertamos precisamente o público alvo de nossas campanhas e entregamos os melhores números e resultados.",
+  },
+];
+
+export const services = [
+  {
+    id: "feature-4",
+    icon: assesoria,
+    title: "Assessoria de Imprensa",
+    content:
+      "Estamos sempre juntinhos de você, compartilhamos os conhecimentos que adquirimos em qualquer demanda.",
+  },
+  {
+    id: "feature-5",
+    icon: estrategia,
+    title: "Elaboração Estratégica",
+    content: "Planejamento singular de todos os temas abordados.",
+  },
+  {
+    id: "feature-6",
+    icon: mkt,
+    title: "Marketing Digital",
+    content:
+      "Por mais rápidas que sejam as mudanças no mundo digital, estamos sempre um passo à frente, prevendo tendências.",
+  },
+  {
+    id: "feature-7",
+    icon: dev,
+    title: "Programação",
+    content: "Automatização das postagens com garantia de prazo e qualidad",
   },
 ];
 
@@ -135,19 +179,19 @@ export const footerLinks = [
         name: "(34) 99930-6776",
       },
       {
-        name: "Agência de Marketing Bmouse Productions Rua Dr. José Olímpio Borges, 134, Centro, Patos de Minas - MG.",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "info@bmouseproductions.com",
       },
     ],
   },
   {
-    title: "Sedes e email",
+    title: "Endereços",
     links: [
       {
         name: "Studios Bmouse Productions Rua Formiga, 565 B, Aurélio Caixeta, Patos de Minas - MG.",
       },
+
       {
-        name: "info@bmouseproductions.com",
+        name: "Agência de Marketing Bmouse Productions Rua Dr. José Olímpio Borges, 134, Centro, Patos de Minas - MG.",
       },
     ],
   },
