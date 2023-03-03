@@ -14,7 +14,7 @@ const Blog = () => {
           </h1>
         </div>
       </div>
-      <div className="container px-5 text-white">
+      <div className="container px-5 text-white mx-auto">
         <a
           className="card post-preview post-preview-featured lift mb-5 overflow-hidden mt-5"
           href="#!"
