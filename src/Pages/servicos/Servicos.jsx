@@ -6,8 +6,16 @@ import service3 from "../../assets/service_3.webp";
 import service4 from "../../assets/service_4.webp";
 import service6 from "../../assets/service_6.webp";
 import service7 from "../../assets/service_7.webp";
+import service8 from "../../assets/service_14.webp";
+import service10 from "../../assets/service_15.webp";
 
 import service9 from "../../assets/adiovisual.svg";
+import agroecologia from "../../assets/agroecologia.svg";
+import mkt from "../../assets/mktdigital.svg";
+import mktof from "../../assets/mktoff.svg";
+import foto from "../../assets/produtosdigitais.svg";
+import site from "../../assets/dev.svg";
+import anuncio from "../../assets/estrategica.svg";
 import estilos from "./index.module.css";
 
 const Servicos = () => {
@@ -58,7 +66,7 @@ const Servicos = () => {
                     <div
                       className={`${estilos.services__three_item_content_icon}`}
                     >
-                      <img src={service9} alt="" className="mx-auto" />
+                      <img src={mkt} alt="" className="mx-auto" />
                     </div>
                     <h4>
                       <a href="services-right-sidebar.html">
@@ -86,7 +94,7 @@ const Servicos = () => {
                     <div
                       className={`${estilos.services__three_item_content_icon}`}
                     >
-                      <img src={service9} alt="" className="mx-auto" />
+                      <img src={mktof} alt="" className="mx-auto" />
                     </div>
                     <h4>
                       <a href="services-right-sidebar.html">Endomarketing</a>
@@ -105,7 +113,7 @@ const Servicos = () => {
                     <div
                       className={`${estilos.services__three_item_content_icon}`}
                     >
-                      <img src={service9} alt="" className="mx-auto" />
+                      <img src={foto} alt="" className="mx-auto" />
                     </div>
                     <h4>
                       <a href="services-right-sidebar.html">Foto E Vídeo</a>
@@ -124,7 +132,7 @@ const Servicos = () => {
                     <div
                       className={`${estilos.services__three_item_content_icon}`}
                     >
-                      <img src={service9} alt="" className="mx-auto" />
+                      <img src={anuncio} alt="" className="mx-auto" />
                     </div>
                     <h4>
                       <a href="services-right-sidebar.html">
@@ -145,7 +153,7 @@ const Servicos = () => {
                     <div
                       className={`${estilos.services__three_item_content_icon}`}
                     >
-                      <img src={service9} alt="" className="mx-auto" />
+                      <img src={site} alt="" className="mx-auto" />
                     </div>
                     <h4>
                       <a href="services-right-sidebar.html">Criação De Sites</a>
@@ -159,7 +167,7 @@ const Servicos = () => {
                 <div
                   className={`${estilos.services__three_item} ${estilos.page}`}
                 >
-                  <img src={service4} alt="" />
+                  <img src={service8} alt="" />
                   <div
                     className={`${estilos.services__three_item_content} ${estilos.page}`}
                   >
@@ -169,7 +177,10 @@ const Servicos = () => {
                       <img src={service9} alt="" className="mx-auto" />
                     </div>
                     <h4>
-                      <a href="services-right-sidebar.html">Foto E Vídeo</a>
+                      <a href="services-right-sidebar.html">
+                        Assessoria De <br />
+                        Imprensa
+                      </a>
                     </h4>
                   </div>
                 </div>
@@ -178,7 +189,7 @@ const Servicos = () => {
                 <div
                   className={`${estilos.services__three_item} ${estilos.page}`}
                 >
-                  <img src={service4} alt="" />
+                  <img src={service10} alt="" />
                   <div
                     className={`${estilos.services__three_item_content} ${estilos.page}`}
                   >
@@ -188,7 +199,10 @@ const Servicos = () => {
                       <img src={service9} alt="" className="mx-auto" />
                     </div>
                     <h4>
-                      <a href="services-right-sidebar.html">Foto E Vídeo</a>
+                      <a href="services-right-sidebar.html">
+                        BMouse E O Futebol <br />
+                        Brasileiro
+                      </a>
                     </h4>
                   </div>
                 </div>

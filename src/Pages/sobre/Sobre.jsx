@@ -2,6 +2,7 @@ import { apple, bill, google } from "../../assets";
 import styles, { layout } from "../../style";
 import tom from "../../assets/tom&beta@2x.png";
 import grupo from "../../assets/agencia@2x.png";
+import grupo2 from "../../assets/Prancheta1.png";
 import grupodark from "../../assets/audiovisual@2x.png";
 
 const Sobre = () => {
@@ -78,6 +79,15 @@ const Sobre = () => {
             o que possibilita criar um plano de médio a longo prazo,
             conquistando metas e firmando a sua marca no mercado
           </p>
+        </div>
+      </section>
+      <section className={layout.sectionReverse}>
+        <div className={layout.sectionInfo}>
+          <h2 className={`${styles.heading2} text-left`}>
+            O que nos <br />
+            torna{" "}
+            <span className="bg-[#e05673] rounded-bl-2xl p-1">diferentes?</span>
+          </h2>
           <p
             className={`${styles.paragraph} max-w-[470px] mt-5 text-left border-l-4 px-2  border-l-[#e05673] rounded-xl`}
           >
@@ -97,30 +107,8 @@ const Sobre = () => {
             criação e execução de todas as missões sem envolver terceiros.
           </p>
         </div>
-      </section>
-      <section className={layout.sectionReverse}>
-        <div className={layout.sectionInfo}>
-          <h2 className={`${styles.heading2} text-left`}>
-            Nossa capacidade de{" "}
-            <span className="bg-[#e05673] rounded-bl-2xl p-1">produção</span>
-          </h2>
-          <p className={`${styles.paragraph} max-w-[470px] mt-5 text-left`}>
-            Nossa agência é mais do que uma equipe distribuída em vários estados
-            do país. Somos uma empresa moderna, 100% automatizada e preparada
-            para atender às mais diversas demandas dos nossos clientes. Além
-            disso, contamos com um estúdio de filmagem de última geração,
-            equipado com tecnologia de ponta e uma estrutura completa para
-            produzir conteúdos de alta qualidade. E o melhor de tudo: podemos
-            realizar tudo isso de forma remota, com toda a eficiência e
-            agilidade que sua empresa‟precisa.
-          </p>
-        </div>
         <div className={layout.sectionImgReverse}>
-          <img
-            src={grupodark}
-            alt="billing"
-            className="w-[100%]  relative z-[5]"
-          />
+          <img src={grupo2} alt="billing" className="w-[100%] relative z-[5]" />
 
           <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient " />
           <div className="absolute z-[3] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient " />

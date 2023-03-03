@@ -31,12 +31,20 @@ const Business = () => (
         A Bmouse Productions <br className="sm:block hidden" />
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5 text-left`}>
-        A Bmouse Productions é uma agência de criatividade, criada nos Estados
-        Unidos pelo casal Tom Gonçalves e Roberta Almeida. Ambos provenientes do
-        mercado artístico, onde possuem grande influência com todo o setor.
+        Somos uma agência de criatividade, criada por Tom Gonçalves e Roberta
+        Almeida na “terra do rato”. A Disney é o lugar em que sonhos se tornam
+        reais, e, talvez, por ter nascido lá, sejamos especialistas em emocionar
+        tantas pessoas ao tornar realidade o que antes era inimaginável. A
+        BMouse retorna ao Brasil revolucionando o tradicional recurso de contar
+        histórias, mudando destinos e construindo o que vem depois do fim.
       </p>
 
-      <Button styles={`mt-10`} />
+      <Button
+        styles={`mt-10`}
+        text="Faça um orçamento"
+        target="_blank"
+        link="https://wa.me/5534997226999?text=Ol%C3%A1%21+Vim+pelo+Site+e+gostaria+de+um+or%C3%A7amento%21"
+      />
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>

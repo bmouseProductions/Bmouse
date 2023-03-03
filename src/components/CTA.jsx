@@ -16,7 +16,11 @@ const CTA = () => {
         </p>
       </div>
       <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-        <Button />
+        <Button
+          text="Faça um orçamento"
+          target="_blank"
+          link="https://wa.me/5534997226999?text=Ol%C3%A1%21+Vim+pelo+Site+e+gostaria+de+um+or%C3%A7amento%21"
+        />
       </div>
     </section>
   );

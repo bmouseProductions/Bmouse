@@ -14,7 +14,12 @@ const CardDeal = () => {
           plano de médio a longo prazo, para conquistarmos as metas e
           concretizarmos a marca no seu mercado específico.
         </p>
-        <Button styles="mt-10" />
+        <Button
+          styles="mt-10"
+          text="Faça um orçamento"
+          target="_blank"
+          link="https://wa.me/5534997226999?text=Ol%C3%A1%21+Vim+pelo+Site+e+gostaria+de+um+or%C3%A7amento%21"
+        />
       </div>
 
       <div className={layout.sectionImg}>
