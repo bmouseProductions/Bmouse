@@ -6,15 +6,29 @@ import {
   instagram,
   linkedin,
   twitter,
-  airbnb,
-  binance,
-  coinbase,
-  dropbox,
   send,
   shield,
   star,
   medic,
   farol,
+  petsmellon,
+  agro,
+  leoni,
+  draelis,
+  gio,
+  lg,
+  patense,
+  mga,
+  neo,
+  nova,
+  petisco,
+  profat,
+  sorriden,
+  sorridentes,
+  triangulo,
+  whg,
+  zoomies,
+  olhar,
 } from "../assets";
 
 export const navLinks = [
@@ -165,15 +179,15 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: petsmellon,
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: agro,
   },
   {
     id: "client-4",
-    logo: dropbox,
+    logo: leoni,
   },
   {
     id: "client-5",
@@ -182,5 +196,66 @@ export const clients = [
   {
     id: "client-6",
     logo: farol,
+  },
+  {
+    id: "client-7",
+    logo: draelis,
+  },
+  {
+    id: "client-8",
+    logo: gio,
+  },
+  {
+    id: "client-9",
+    logo: lg,
+  },
+  {
+    id: "client-10",
+    logo: patense,
+  },
+  {
+    id: "client-11",
+    logo: mga,
+  },
+  {
+    id: "client-12",
+    logo: neo,
+  },
+  {
+    id: "client-13",
+    logo: nova,
+  },
+  {
+    id: "client-14",
+    logo: olhar,
+  },
+  {
+    id: "client-15",
+    logo: petisco,
+  },
+  {
+    id: "client-16",
+    logo: profat,
+  },
+
+  {
+    id: "client-17",
+    logo: sorriden,
+  },
+  {
+    id: "client-18",
+    logo: sorridentes,
+  },
+  {
+    id: "client-19",
+    logo: triangulo,
+  },
+  {
+    id: "client-20",
+    logo: whg,
+  },
+  {
+    id: "client-21",
+    logo: zoomies,
   },
 ];

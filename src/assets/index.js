@@ -1,9 +1,6 @@
-import airbnb from "./airbnb.png";
 import bill from "./bill.png";
-import binance from "./binance.png";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
-import dropbox from "./dropbox.png";
 import logo from "./whitelogo-bmouse.svg";
 import quotes from "./quotes.svg";
 import robot from "./rato1.png";
@@ -23,16 +20,31 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-import medic from "./medicimagem.svg";
+import medic from "./mid.svg";
 import farol from "./farol.svg";
+import agro from "./agroecologia.svg";
+import draelis from "./draelis.svg";
+import gio from "./giolaser.svg";
+import leoni from "./leoni.svg";
+import lg from "./lj.svg";
+import petsmellon from "./petsmellon.svg";
+import patense from "./patense.svg";
+import mga from "./mga.svg";
+import neo from "./neogenetics.svg";
+import nova from "./novageracao.svg";
+import olhar from "./olharcerto.svg";
+import petisco from "./petisco.svg";
+import profat from "./Profat.svg";
+import sorriden from "./sorriden.svg";
+import sorridentes from "./sorridents.svg";
+import triangulo from "./transtriangulo.svg";
+import whg from "./whg.svg";
+import zoomies from "./zoomies.svg";
 
 export {
-  airbnb,
   bill,
-  binance,
   card,
   coinbase,
-  dropbox,
   logo,
   quotes,
   robot,
@@ -54,4 +66,22 @@ export {
   people03,
   medic,
   farol,
+  agro,
+  draelis,
+  gio,
+  leoni,
+  lg,
+  petsmellon,
+  patense,
+  mga,
+  neo,
+  nova,
+  olhar,
+  petisco,
+  profat,
+  sorriden,
+  sorridentes,
+  triangulo,
+  whg,
+  zoomies,
 };
