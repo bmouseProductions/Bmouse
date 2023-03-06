@@ -74,13 +74,7 @@ export const features = [
     content:
       "Produções esteticamente impecáveis que contam histórias emocionantes.",
   },
-  {
-    id: "feature-2",
-    icon: produtos,
-    title: "Criação de Produtos Digitais",
-    content:
-      "Fornecer informações e conteúdos úteis é uma das melhores estratégias para atingir seus potenciais clientes.",
-  },
+
   {
     id: "feature-3",
     icon: mktof,
@@ -95,6 +89,13 @@ export const features = [
     content:
       "Acertamos precisamente o público alvo de nossas campanhas e entregamos os melhores números e resultados.",
   },
+  {
+    id: "feature-2",
+    icon: produtos,
+    title: "Criação de Produtos Digitais",
+    content:
+      "Fornecer informações e conteúdos úteis é uma das melhores estratégias para atingir seus potenciais clientes.",
+  },
 ];
 
 export const services = [
@@ -105,12 +106,7 @@ export const services = [
     content:
       "Estamos sempre juntinhos de você, compartilhamos os conhecimentos que adquirimos em qualquer demanda.",
   },
-  {
-    id: "feature-5",
-    icon: estrategia,
-    title: "Elaboração Estratégica",
-    content: "Planejamento singular de todos os temas abordados.",
-  },
+
   {
     id: "feature-6",
     icon: mkt,
@@ -123,6 +119,12 @@ export const services = [
     icon: dev,
     title: "Programação",
     content: "Automatização das postagens com garantia de prazo e qualidad",
+  },
+  {
+    id: "feature-5",
+    icon: estrategia,
+    title: "Elaboração Estratégica",
+    content: "Planejamento singular de todos os temas abordados.",
   },
 ];
 

@@ -31,8 +31,11 @@ const Business = () => (
         <FeatureCard key={feature.id} {...feature} index={index} />
       ))}
     </div>
+    <div className={`sm:hidden ${styles.flexCenter}`}>
+      <Button text="Ver todos" link="/servicos" styles={`${styles.boxWidth}`} />
+    </div>
 
-    <div className={`${layout.sectionImg} flex-col`}>
+    <div className={`${layout.sectionImg} flex-col hidden md:block`}>
       {services.map((feature, index) => (
         <FeatureCard key={feature.id} {...feature} index={index} />
       ))}
