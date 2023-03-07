@@ -1,13 +1,20 @@
 import styles from "../../style";
-import service5 from "../../assets/services-5.jpg";
-import service1 from "../../assets/service_1.webp";
-import service2 from "../../assets/service_2.webp";
-import service3 from "../../assets/service_3.webp";
-import service4 from "../../assets/service_4.webp";
-import service6 from "../../assets/service_6.webp";
-import service7 from "../../assets/service_7.webp";
+import service5 from "../../assets/Jose-Eduardo-Clenio-800x500.jpg";
+import service1 from "../../assets/mirian gontijo.webp";
+import service2 from "../../assets/pets-mellon-800x500.jpg";
+import service3 from "../../assets/experimenta2.png";
+import service4 from "../../assets/05-800x500.jpg";
+import service6 from "../../assets/Haras Nimbus de Prata.webp";
+import service7 from "../../assets/Sorriden - Pocahontas.png";
+import service8 from "../../assets/Foto-5-800x500.jpg";
+import service9 from "../../assets/casa-800x500.jpg";
+import service10 from "../../assets/Foto-7-800x500.jpg";
+import service11 from "../../assets/Foto-6-800x500.png";
+import service12 from "../../assets/04-800x500.jpg";
+import service13 from "../../assets/03-800x500.jpg";
+import service14 from "../../assets/Fotos-Servicos-08-1.png";
+import service15 from "../../assets/Leoni-com-Tania-Mara.jpg";
 
-import service9 from "../../assets/services-9.png";
 import estilos from "./index.module.css";
 
 const Portfolio = () => {
@@ -25,7 +32,7 @@ const Portfolio = () => {
         </p>
       </div>
 
-      <div className={`${estilos.section_padding} text-white`}>
+      <div className={`${estilos.section_padding} `}>
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-6">
             <div className="col-span-1">
@@ -64,7 +71,7 @@ const Portfolio = () => {
               <div
                 className={`${estilos.services__three_item} ${estilos.page}`}
               >
-                <img src={service4} alt="" />
+                <img src={service3} alt="" />
                 <div
                   className={`${estilos.services__three_item_content} ${estilos.page}`}
                 >
@@ -96,7 +103,7 @@ const Portfolio = () => {
               <div
                 className={`${estilos.services__three_item} ${estilos.page}`}
               >
-                <img src={service6} alt="" className="mx-auto" />
+                <img src={service5} alt="" className="mx-auto" />
                 <div
                   className={`${estilos.services__three_item_content} ${estilos.page}`}
                 >
@@ -112,7 +119,7 @@ const Portfolio = () => {
               <div
                 className={`${estilos.services__three_item} ${estilos.page}`}
               >
-                <img src={service7} alt="" />
+                <img src={service6} alt="" />
                 <div
                   className={`${estilos.services__three_item_content} ${estilos.page}`}
                 >
@@ -144,7 +151,7 @@ const Portfolio = () => {
               <div
                 className={`${estilos.services__three_item} ${estilos.page}`}
               >
-                <img src={service7} alt="" />
+                <img src={service8} alt="" />
                 <div
                   className={`${estilos.services__three_item_content} ${estilos.page}`}
                 >
@@ -160,7 +167,7 @@ const Portfolio = () => {
               <div
                 className={`${estilos.services__three_item} ${estilos.page}`}
               >
-                <img src={service7} alt="" />
+                <img src={service9} alt="" />
                 <div
                   className={`${estilos.services__three_item_content} ${estilos.page}`}
                 >
@@ -176,7 +183,7 @@ const Portfolio = () => {
               <div
                 className={`${estilos.services__three_item} ${estilos.page}`}
               >
-                <img src={service7} alt="" />
+                <img src={service10} alt="" />
                 <div
                   className={`${estilos.services__three_item_content} ${estilos.page}`}
                 >
@@ -192,7 +199,7 @@ const Portfolio = () => {
               <div
                 className={`${estilos.services__three_item} ${estilos.page}`}
               >
-                <img src={service7} alt="" />
+                <img src={service11} alt="" />
                 <div
                   className={`${estilos.services__three_item_content} ${estilos.page}`}
                 >
@@ -208,7 +215,7 @@ const Portfolio = () => {
               <div
                 className={`${estilos.services__three_item} ${estilos.page}`}
               >
-                <img src={service7} alt="" />
+                <img src={service12} alt="" />
                 <div
                   className={`${estilos.services__three_item_content} ${estilos.page}`}
                 >
@@ -224,7 +231,7 @@ const Portfolio = () => {
               <div
                 className={`${estilos.services__three_item} ${estilos.page}`}
               >
-                <img src={service7} alt="" />
+                <img src={service13} alt="" />
                 <div
                   className={`${estilos.services__three_item_content} ${estilos.page}`}
                 >
@@ -240,7 +247,7 @@ const Portfolio = () => {
               <div
                 className={`${estilos.services__three_item} ${estilos.page}`}
               >
-                <img src={service7} alt="" />
+                <img src={service14} alt="" />
                 <div
                   className={`${estilos.services__three_item_content} ${estilos.page}`}
                 >
@@ -256,7 +263,7 @@ const Portfolio = () => {
               <div
                 className={`${estilos.services__three_item} ${estilos.page}`}
               >
-                <img src={service7} alt="" />
+                <img src={service15} alt="" />
                 <div
                   className={`${estilos.services__three_item_content} ${estilos.page}`}
                 >
