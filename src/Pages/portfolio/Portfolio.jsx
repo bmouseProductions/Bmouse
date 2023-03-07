@@ -34,244 +34,186 @@ const Portfolio = () => {
 
       <div className={`${estilos.section_padding} `}>
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-6 items-stretch">
             <div className="col-span-1">
               <div
-                className={`${estilos.services__three_item} ${estilos.page}`}
+                className={`${estilos.services__three_item} relative h-full`}
               >
-                <img src={service1} alt="" />
+                <img src={service1} className="w-full h-full object-cover" />
                 <div
-                  className={`${estilos.services__three_item_content} ${estilos.page}`}
+                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
+                >
+                  <h4>Relançamento Mirían Gontijo Advogados</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-span-1">
+              <div
+                className={`${estilos.services__three_item} relative h-full`}
+              >
+                <img src={service2} className="w-full h-full object-cover" />
+                <div
+                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
+                >
+                  <h4>Campanha Pets Mellon</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-span-1">
+              <div
+                className={`${estilos.services__three_item} relative h-full`}
+              >
+                <img src={service3} className="w-full h-full object-cover" />
+                <div
+                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
+                >
+                  <h4>Campanha Experimenta GiOlaser</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-span-1">
+              <div
+                className={`${estilos.services__three_item} relative h-full`}
+              >
+                <img src={service4} className="w-full h-full object-cover" />
+                <div
+                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
+                >
+                  <h4>Campanha Patense – Uma Empresa Do Bem</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-span-1">
+              <div
+                className={`${estilos.services__three_item} relative h-full`}
+              >
+                <img src={service5} className="w-full h-full object-cover" />
+                <div
+                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
                 >
                   <h4>
-                    <a href="services-right-sidebar.html">
-                      Relançamento Mírian Gontijo Advogados
-                    </a>
+                    Vídeo de Homenagem a Grande Colaborador do Grupo Patense:
                   </h4>
                 </div>
               </div>
             </div>
             <div className="col-span-1">
               <div
-                className={`${estilos.services__three_item} ${estilos.page}`}
+                className={`${estilos.services__three_item} relative h-full`}
               >
-                <img src={service2} alt="" />
+                <img src={service6} className="w-full h-full object-cover" />
                 <div
-                  className={`${estilos.services__three_item_content} ${estilos.page}`}
+                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
                 >
-                  <h4>
-                    <a href="services-right-sidebar.html">
-                      Campanha Pets Mellon
-                    </a>
-                  </h4>
+                  <h4>Haras Nimbus de Prata</h4>
                 </div>
               </div>
             </div>
             <div className="col-span-1">
               <div
-                className={`${estilos.services__three_item} ${estilos.page}`}
+                className={`${estilos.services__three_item} relative h-full`}
               >
-                <img src={service3} alt="" />
+                <img src={service7} className="w-full h-full object-cover" />
                 <div
-                  className={`${estilos.services__three_item_content} ${estilos.page}`}
+                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
                 >
-                  <h4>
-                    <a href="services-right-sidebar.html">
-                      Campanha Experimenta GiOlaser
-                    </a>
-                  </h4>
+                  <h4>Sorriden – Pocahontas</h4>
                 </div>
               </div>
             </div>
             <div className="col-span-1">
               <div
-                className={`${estilos.services__three_item} ${estilos.page}`}
+                className={`${estilos.services__three_item} relative h-full`}
               >
-                <img src={service4} alt="" />
+                <img src={service8} className="w-full h-full object-cover" />
                 <div
-                  className={`${estilos.services__three_item_content} ${estilos.page}`}
+                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
                 >
-                  <h4>
-                    <a href="services-right-sidebar.html">
-                      Campanha Patense – Uma Empresa Do Bem
-                    </a>
-                  </h4>
+                  <h4>Café Nova Geração – Combina mais com o que?</h4>
                 </div>
               </div>
             </div>
             <div className="col-span-1">
               <div
-                className={`${estilos.services__three_item} ${estilos.page}`}
+                className={`${estilos.services__three_item} relative h-full`}
               >
-                <img src={service5} alt="" className="mx-auto" />
+                <img src={service9} className="w-full h-full object-cover" />
                 <div
-                  className={`${estilos.services__three_item_content} ${estilos.page}`}
+                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
                 >
-                  <h4>
-                    <a href="services-right-sidebar.html">
-                      Vídeo de Homenagem a Grande Colaborador do Grupo Patense:
-                    </a>
-                  </h4>
+                  <h4>Casa – Centro de Atenção à Saúde</h4>
                 </div>
               </div>
             </div>
             <div className="col-span-1">
               <div
-                className={`${estilos.services__three_item} ${estilos.page}`}
+                className={`${estilos.services__three_item} relative h-full`}
               >
-                <img src={service6} alt="" />
+                <img src={service10} className="w-full h-full object-cover" />
                 <div
-                  className={`${estilos.services__three_item_content} ${estilos.page}`}
+                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
                 >
-                  <h4>
-                    <a href="services-right-sidebar.html">
-                      Haras Nimbus de Prata
-                    </a>
-                  </h4>
+                  <h4>Dra. Elisângela- Médica para Família</h4>
                 </div>
               </div>
             </div>
             <div className="col-span-1">
               <div
-                className={`${estilos.services__three_item} ${estilos.page}`}
+                className={`${estilos.services__three_item} relative h-full`}
               >
-                <img src={service7} alt="" />
+                <img src={service11} className="w-full h-full object-cover" />
                 <div
-                  className={`${estilos.services__three_item_content} ${estilos.page}`}
+                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
                 >
-                  <h4>
-                    <a href="services-right-sidebar.html">
-                      Sorriden – Pocahontas
-                    </a>
-                  </h4>
+                  <h4>Clênio Gonçalves- Dia dos Pais</h4>
                 </div>
               </div>
             </div>
             <div className="col-span-1">
               <div
-                className={`${estilos.services__three_item} ${estilos.page}`}
+                className={`${estilos.services__three_item} relative h-full`}
               >
-                <img src={service8} alt="" />
+                <img src={service12} className="w-full h-full object-cover" />
                 <div
-                  className={`${estilos.services__three_item_content} ${estilos.page}`}
+                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
                 >
-                  <h4>
-                    <a href="services-right-sidebar.html">
-                      Café Nova Geração – Combina mais com o que?
-                    </a>
-                  </h4>
+                  <h4>Sorridents – A Força de Um Sorriso</h4>
                 </div>
               </div>
             </div>
             <div className="col-span-1">
               <div
-                className={`${estilos.services__three_item} ${estilos.page}`}
+                className={`${estilos.services__three_item} relative h-full`}
               >
-                <img src={service9} alt="" />
+                <img src={service13} className="w-full h-full object-cover" />
                 <div
-                  className={`${estilos.services__three_item_content} ${estilos.page}`}
+                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
                 >
-                  <h4>
-                    <a href="services-right-sidebar.html">
-                      Dra. Elisângela- Médica para Família
-                    </a>
-                  </h4>
+                  <h4>Sem Limites – Uma História do Grupo Patense</h4>
                 </div>
               </div>
             </div>
             <div className="col-span-1">
               <div
-                className={`${estilos.services__three_item} ${estilos.page}`}
+                className={`${estilos.services__three_item} relative h-full`}
               >
-                <img src={service10} alt="" />
+                <img src={service14} className="w-full h-full object-cover" />
                 <div
-                  className={`${estilos.services__three_item_content} ${estilos.page}`}
+                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
                 >
-                  <h4>
-                    <a href="services-right-sidebar.html">
-                      Casa – Centro de Atenção à Saúde
-                    </a>
-                  </h4>
+                  <h4>Patense 50 anos- José Borges Malheiros</h4>
                 </div>
               </div>
             </div>
             <div className="col-span-1">
               <div
-                className={`${estilos.services__three_item} ${estilos.page}`}
+                className={`${estilos.services__three_item} relative h-full`}
               >
-                <img src={service11} alt="" />
+                <img src={service15} className="w-full h-full object-cover" />
                 <div
-                  className={`${estilos.services__three_item_content} ${estilos.page}`}
+                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
                 >
-                  <h4>
-                    <a href="services-right-sidebar.html">
-                      Clênio Gonçalves- Dia dos Pais
-                    </a>
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-span-1">
-              <div
-                className={`${estilos.services__three_item} ${estilos.page}`}
-              >
-                <img src={service12} alt="" />
-                <div
-                  className={`${estilos.services__three_item_content} ${estilos.page}`}
-                >
-                  <h4>
-                    <a href="services-right-sidebar.html">
-                      Sorridents – A Força de Um Sorriso
-                    </a>
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-span-1">
-              <div
-                className={`${estilos.services__three_item} ${estilos.page}`}
-              >
-                <img src={service13} alt="" />
-                <div
-                  className={`${estilos.services__three_item_content} ${estilos.page}`}
-                >
-                  <h4>
-                    <a href="services-right-sidebar.html">
-                      Sem Limites – Uma História do Grupo Patense
-                    </a>
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-span-1">
-              <div
-                className={`${estilos.services__three_item} ${estilos.page}`}
-              >
-                <img src={service14} alt="" />
-                <div
-                  className={`${estilos.services__three_item_content} ${estilos.page}`}
-                >
-                  <h4>
-                    <a href="services-right-sidebar.html">
-                      Patense 50 anos- José Borges Malheiros
-                    </a>
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-span-1">
-              <div
-                className={`${estilos.services__three_item} ${estilos.page}`}
-              >
-                <img src={service15} alt="" />
-                <div
-                  className={`${estilos.services__three_item_content} ${estilos.page}`}
-                >
-                  <h4>
-                    <a href="services-right-sidebar.html">
-                      Leoni Alimentos – Campanha com Tânia Mara
-                    </a>
-                  </h4>
+                  <h4>Leoni Alimentos – Campanha com Tânia Mara</h4>
                 </div>
               </div>
             </div>
