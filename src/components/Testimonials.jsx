@@ -20,6 +20,14 @@ import ivete from "../assets/IVETE_3682.jpg";
 const Testimonials = () => {
   return (
     <>
+      <div className="text-center mt-32">
+        <div className="flex flex-row justify-between items-center w-full">
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[52px] text-[52px] text-white ss:leading-[60.8px] leading-[45px]">
+            <br className="sm:block hidden" /> {"  "}
+            <span className="text-gradient">Nossos Projetos </span> {"  "}
+          </h1>
+        </div>
+      </div>
       <div className="flex flex-wrap mx-2 justify-center mt-8 sm:mt-32 sm:flex-row z-30">
         <figure className="snip1574">
           <img

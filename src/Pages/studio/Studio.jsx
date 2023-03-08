@@ -4,12 +4,13 @@ import MessageIcon from "@mui/icons-material/Message";
 import grupodark from "../../assets/audiovisual@2x.png";
 import ratinho from "../../assets/ratinho123.png";
 import studio from "../../assets/logostudios.svg";
+import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 
 const Studio = () => {
   return (
     <>
       <section className="mt-8 mb-10">
-        <div className="h-screen flex items-center justify-center mb-44">
+        <div className="h-screen flex items-center justify-center ">
           <div className="text-center flex flex-col sm:flex-row justify-center items-center gap-0 mx-auto">
             <div className="flex flex-col items-center sm:items-start">
               <img src={studio} />
@@ -63,7 +64,114 @@ const Studio = () => {
         </div>
       </section>
 
-      <section className="cards">
+      <section className={layout.section}>
+        <div className={layout.sectionInfo}>
+          <h2 className={`${styles.heading2} text-center`}>
+            Ckecklist de <br />{" "}
+            <span className="bg-[#e05673] rounded-bl-2xl p-1">
+              equipamentos
+            </span>
+          </h2>
+          <p className={`${styles.paragraph}  mt-5 text-center`}>
+            Grandes ideias para divulgar a sua marca se tornam ainda maiores com
+            a liberdade técnica que temos para executá-las. Isso quer dizer que
+            “se dá pra sonhar, dá pra fazer.” Um dos nossos principais focos é
+            investir em infraestrutura, conheça o que temos disponível:
+          </p>
+          <div
+            className={`${layout.section} text-center mx-auto justify-center`}
+          >
+            <ul
+              className={`${styles.paragraph} max-w-[470px] mt-5 text-left leading-10 mr-10`}
+            >
+              <li>
+                <CheckCircleOutlineIcon sx={{ color: "#90375c" }} /> Panasonic
+                S1H (Netflix Available) - 6K
+              </li>
+              <li>
+                {" "}
+                <CheckCircleOutlineIcon sx={{ color: "#90375c" }} /> Sony A7r IV
+                - 61MP/4K
+              </li>
+              <li>
+                {" "}
+                <CheckCircleOutlineIcon sx={{ color: "#90375c" }} /> BlackMagic
+                Cinema Pocket - 4K (Cinema Camera)
+              </li>
+              <li>
+                {" "}
+                <CheckCircleOutlineIcon sx={{ color: "#90375c" }} /> Panasonic
+                GH5 - 4K
+              </li>
+              <li>
+                {" "}
+                <CheckCircleOutlineIcon sx={{ color: "#90375c" }} /> DJI Ronin S
+                / DJI Ronin M (Estabilizadores de movimento)
+              </li>
+              <li>
+                {" "}
+                <CheckCircleOutlineIcon sx={{ color: "#90375c" }} /> Lapelas
+                Wireless Sennheiser
+              </li>
+              <li>
+                {" "}
+                <CheckCircleOutlineIcon sx={{ color: "#90375c" }} /> Microfone
+                Cinema Rode
+              </li>
+              <li>
+                {" "}
+                <CheckCircleOutlineIcon sx={{ color: "#90375c" }} /> Microfones
+                Shotgun Rode
+              </li>
+            </ul>
+            <ul
+              className={`${styles.paragraph} max-w-[470px] mt-5 text-left leading-10`}
+            >
+              <li>
+                <CheckCircleOutlineIcon sx={{ color: "#90375c" }} /> DJI Mavic
+                Pro 2 (Drone)
+              </li>
+              <li>
+                {" "}
+                <CheckCircleOutlineIcon sx={{ color: "#90375c" }} /> Kit
+                completo de lentes prime Canon
+              </li>
+              <li>
+                {" "}
+                <CheckCircleOutlineIcon sx={{ color: "#90375c" }} /> Ilha de
+                edição (MacBook Pro, Asus Zenbook Pro Duo, PC de edição)
+              </li>
+              <li>
+                {" "}
+                <CheckCircleOutlineIcon sx={{ color: "#90375c" }} />{" "}
+                Equipamentos completos para streaming
+              </li>
+              <li>
+                {" "}
+                <CheckCircleOutlineIcon sx={{ color: "#90375c" }} />{" "}
+                Equipamentos completos para Podcast
+              </li>
+              <li>
+                {" "}
+                <CheckCircleOutlineIcon sx={{ color: "#90375c" }} />{" "}
+                Equipamentos para gravação de áudio e vinhetas
+              </li>
+              <li>
+                {" "}
+                <CheckCircleOutlineIcon sx={{ color: "#90375c" }} /> BlackMagic
+                Ursa Pro - 12K (Cinema)
+              </li>
+              <li>
+                {" "}
+                <CheckCircleOutlineIcon sx={{ color: "#90375c" }} /> Panasonic
+                S1H (Netflix Available) - 6K
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className="cards mt-20">
         <div className="flex flex-row justify-between items-center w-full text-center">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
             Conteúdos <br className="sm:block hidden" /> {"  "}

@@ -25,22 +25,36 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 
 const Business = () => (
-  <section className={layout.section}>
-    <div className={`${layout.sectionImg} flex-col`}>
-      {features.map((feature, index) => (
-        <FeatureCard key={feature.id} {...feature} index={index} />
-      ))}
+  <>
+    <div className="text-center mt-32">
+      <div className="flex flex-row justify-between items-center w-full">
+        <h1 className="flex-1 font-poppins font-semibold ss:text-[52px] text-[52px] text-white ss:leading-[60.8px] leading-[45px]">
+          <br className="sm:block hidden" /> {"  "}
+          <span className="text-gradient">Nossos Serviços </span> {"  "}
+        </h1>
+      </div>
     </div>
-    <div className={`sm:hidden ${styles.flexCenter}`}>
-      <Button text="Ver todos" link="/servicos" styles={`${styles.boxWidth}`} />
-    </div>
+    <section className={layout.section}>
+      <div className={`${layout.sectionImg} flex-col`}>
+        {features.map((feature, index) => (
+          <FeatureCard key={feature.id} {...feature} index={index} />
+        ))}
+      </div>
+      <div className={`sm:hidden ${styles.flexCenter}`}>
+        <Button
+          text="Ver todos"
+          link="/servicos"
+          styles={`${styles.boxWidth}`}
+        />
+      </div>
 
-    <div className={`${layout.sectionImg} flex-col hidden md:block`}>
-      {services.map((feature, index) => (
-        <FeatureCard key={feature.id} {...feature} index={index} />
-      ))}
-    </div>
-  </section>
+      <div className={`${layout.sectionImg} flex-col hidden md:block`}>
+        {services.map((feature, index) => (
+          <FeatureCard key={feature.id} {...feature} index={index} />
+        ))}
+      </div>
+    </section>
+  </>
 );
 
 export default Business;

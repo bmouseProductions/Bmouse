@@ -34,6 +34,9 @@ const Footer = () => (
                     index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
                   }`}
                 >
+                  {link.icon && (
+                    <link.icon className="inline-block w-5 h-5 mr-2" />
+                  )}
                   {link.name}
                 </li>
               ))}

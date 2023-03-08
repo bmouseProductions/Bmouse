@@ -37,6 +37,9 @@ import {
   perfomance,
   dev,
 } from "../assets";
+import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+import EmailIcon from "@mui/icons-material/Email";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 export const navLinks = [
   {
@@ -178,9 +181,11 @@ export const footerLinks = [
     links: [
       {
         name: "(34) 99930-6776",
+        icon: LocalPhoneIcon,
       },
       {
         name: "info@bmouseproductions.com",
+        icon: EmailIcon,
       },
     ],
   },
@@ -189,10 +194,12 @@ export const footerLinks = [
     links: [
       {
         name: "Studios Bmouse Productions Rua Formiga, 565 B, Aurélio Caixeta, Patos de Minas - MG.",
+        icon: LocationOnIcon,
       },
 
       {
         name: "Agência de Marketing Bmouse Productions Rua Dr. José Olímpio Borges, 134, Centro, Patos de Minas - MG.",
+        icon: LocationOnIcon,
       },
     ],
   },
