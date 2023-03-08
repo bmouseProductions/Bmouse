@@ -72,7 +72,10 @@ const Studio = () => {
               equipamentos
             </span>
           </h2>
-          <p className={`${styles.paragraph}  mt-5 text-center`}>
+          <p
+            className={`${styles.paragraph}  mt-5 text-center`}
+            style={{ maxWidth: "1000px", margin: "0 auto", paddingTop: "20px" }}
+          >
             Grandes ideias para divulgar a sua marca se tornam ainda maiores com
             a liberdade técnica que temos para executá-las. Isso quer dizer que
             “se dá pra sonhar, dá pra fazer.” Um dos nossos principais focos é
