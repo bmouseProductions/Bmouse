@@ -29,6 +29,14 @@ const settings = {
 
 const Clients = () => (
   <section>
+    <div className="text-center mt-32">
+      <div className="flex flex-row justify-between items-center w-full">
+        <h1 className="flex-1 font-poppins font-semibold ss:text-[52px] text-[52px] text-white ss:leading-[60.8px] leading-[45px]">
+          <br className="sm:block hidden" /> {"  "}
+          <span className="text-gradient">Nossos Clientes </span> {"  "}
+        </h1>
+      </div>
+    </div>
     <Slider {...settings} className="mx-auto mt-60 mb-60 content-center">
       {clients.map((client) => (
         <div key={client.id}>

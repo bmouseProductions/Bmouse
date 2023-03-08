@@ -21,7 +21,6 @@ import {
   mga,
   neo,
   nova,
-  petisco,
   profat,
   sorriden,
   sorridentes,
@@ -275,10 +274,7 @@ export const clients = [
     id: "client-14",
     logo: olhar,
   },
-  {
-    id: "client-15",
-    logo: petisco,
-  },
+
   {
     id: "client-16",
     logo: profat,

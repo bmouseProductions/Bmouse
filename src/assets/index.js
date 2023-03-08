@@ -33,7 +33,6 @@ import mga from "./mga.svg";
 import neo from "./neogenetics.svg";
 import nova from "./novageracao.svg";
 import olhar from "./olharcerto.svg";
-import petisco from "./petisco.svg";
 import profat from "./Profat.svg";
 import sorriden from "./sorriden.svg";
 import sorridentes from "./sorridents.svg";
@@ -85,7 +84,6 @@ export {
   neo,
   nova,
   olhar,
-  petisco,
   profat,
   sorriden,
   sorridentes,
