@@ -14,7 +14,7 @@ import corpot from "../../assets/FotoCorporativa.webp";
 import inst from "../../assets/Institucional.webp";
 import motion from "../../assets/Motion.webp";
 import treina from "../../assets/Treinamento.webp";
-import aula from "../../assets/VídeoAula.webp";
+import aula from "../../assets/VideoAula.webp";
 
 const Studio = () => {
   return (
