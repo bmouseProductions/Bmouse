@@ -40,6 +40,7 @@ import {
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import EmailIcon from "@mui/icons-material/Email";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
+import YouTubeIcon from "@mui/icons-material/YouTube";
 
 export const navLinks = [
   {
@@ -218,7 +219,7 @@ export const socialMedia = [
   },
   {
     id: "social-media-3",
-    icon: twitter,
+    icon: YouTubeIcon,
     link: "https://www.twitter.com/",
   },
   {

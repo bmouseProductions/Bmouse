@@ -4,13 +4,14 @@ import MessageIcon from "@mui/icons-material/Message";
 import grupodark from "../../assets/audiovisual@2x.png";
 import ratinho from "../../assets/ratinho123.png";
 import studio from "../../assets/logostudios.svg";
+import teste from "../../assets/zoolitos.webp";
 import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 
 const Studio = () => {
   return (
     <>
-      <section className="mt-8 mb-10">
-        <div className="h-screen flex items-center justify-center ">
+      <section className=" mt-24 mb-10">
+        <div className="flex items-center justify-center ">
           <div className="text-center flex flex-col sm:flex-row justify-center items-center gap-0 mx-auto">
             <div className="flex flex-col items-center sm:items-start">
               <img src={studio} />
@@ -176,7 +177,7 @@ const Studio = () => {
 
       <section className="cards mt-20">
         <div className="flex flex-row justify-between items-center w-full text-center">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[32px] text-white ss:leading-[100.8px] leading-[35px]">
             Conteúdos <br className="sm:block hidden" /> {"  "}
             <span className="text-gradient">Audiovisuais </span> {"  "}
             em que somos <br className="sm:block hidden" /> {"  "}
@@ -185,8 +186,14 @@ const Studio = () => {
         </div>
         <div className="container">
           <div className="card">
-            <div className="box">
-              <div className="content">
+            <div
+              className="box"
+              style={{
+                backgroundImage: `url(${teste})`,
+              }}
+            >
+              <div className="absolute inset-0 bg-black opacity-50"></div>
+              <div className="relative content">
                 <h2>01</h2>
                 <h3>Comerciais</h3>
               </div>

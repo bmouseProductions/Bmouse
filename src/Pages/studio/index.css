@@ -51,7 +51,6 @@
   left: 20px;
   right: 20px;
   bottom: 20px;
-  background: #2a2b2f;
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -59,6 +58,7 @@
   overflow: hidden;
   transition: 0.5s;
 }
+
 .cards .container .card .box:hover {
   transform: translateY(-50px);
 }
