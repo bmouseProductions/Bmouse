@@ -37,7 +37,7 @@ const Clients = () => (
         </h1>
       </div>
     </div>
-    <Slider {...settings} className="mx-auto mt-60 mb-60 content-center">
+    <Slider {...settings} className="mx-auto mt-40 mb-60 content-center">
       {clients.map((client) => (
         <div key={client.id}>
           <img

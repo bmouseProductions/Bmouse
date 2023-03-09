@@ -35,12 +35,16 @@ import {
   estrategia,
   mkt,
   perfomance,
+  tiktok,
   dev,
 } from "../assets";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import EmailIcon from "@mui/icons-material/Email";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 export const navLinks = [
   {
@@ -209,23 +213,28 @@ export const footerLinks = [
 export const socialMedia = [
   {
     id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
+    icon: InstagramIcon,
+    link: "https://www.instagram.com/bmouseproductions/",
   },
   {
     id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
+    image: facebook,
+    link: "https://www.facebook.com/bmouseproductions",
   },
   {
     id: "social-media-3",
+    image: tiktok,
+    link: "https://www.tiktok.com/@bmouseproductions?_t=8aVXRIT3HjZ&_r=1",
+  },
+  {
+    id: "1",
     icon: YouTubeIcon,
-    link: "https://www.twitter.com/",
+    link: "https://www.youtube.com/@bmouseproductions_",
   },
   {
     id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
+    icon: LinkedInIcon,
+    link: "https://www.linkedin.com/company/bmouse/",
   },
 ];
 

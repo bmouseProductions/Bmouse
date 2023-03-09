@@ -52,17 +52,39 @@ const Footer = () => (
       </p>
 
       <div className="flex flex-row md:mt-0 mt-6">
-        {socialMedia.map((social, index) => (
-          <img
-            key={social.id}
-            src={social.icon}
-            alt={social.id}
-            className={`w-[21px] h-[21px] object-contain cursor-pointer ${
-              index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
-            }`}
-            onClick={() => window.open(social.link)}
-          />
-        ))}
+        <ul className="list-none flex">
+          {socialMedia.map((social, index) => (
+            <li
+              key={social.id}
+              className={`w-[21px] h-[21px] object-contain cursor-pointer text-white ${
+                index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
+              }`}
+            >
+              <a href={social.link} target="_blank">
+                {social.icon && social.image && (
+                  <div className="flex">
+                    <img
+                      src={social.image}
+                      alt={social.name}
+                      className="inline-block w-full h-5 mr-2"
+                    />
+                    <social.icon className="inline-block w-full h-5" />
+                  </div>
+                )}
+                {social.icon && !social.image && (
+                  <social.icon className="inline-block w-full h-5 mr-2" />
+                )}
+                {!social.icon && social.image && (
+                  <img
+                    src={social.image}
+                    alt={social.name}
+                    className="inline-block w-full h-5 mr-2"
+                  />
+                )}
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   </section>

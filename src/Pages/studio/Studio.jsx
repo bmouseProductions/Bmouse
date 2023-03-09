@@ -4,8 +4,17 @@ import MessageIcon from "@mui/icons-material/Message";
 import grupodark from "../../assets/audiovisual@2x.png";
 import ratinho from "../../assets/ratinho123.png";
 import studio from "../../assets/logostudios.svg";
-import teste from "../../assets/zoolitos.webp";
+import teste from "../../assets/comercial.webp";
 import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
+import anima from "../../assets/Animação.webp";
+import apre from "../../assets/ApresentaçãodeProdutos.webp";
+import curta from "../../assets/CurtaMetragem.webp";
+import docs from "../../assets/Documentário.webp";
+import corpot from "../../assets/FotoCorporativa.webp";
+import inst from "../../assets/Institucional.webp";
+import motion from "../../assets/Motion.webp";
+import treina from "../../assets/Treinamento.webp";
+import aula from "../../assets/VídeoAula.webp";
 
 const Studio = () => {
   return (
@@ -200,72 +209,127 @@ const Studio = () => {
             </div>
           </div>
           <div className="card">
-            <div className="box">
-              <div className="content">
+            <div
+              className="box"
+              style={{
+                backgroundImage: `url(${inst})`,
+              }}
+            >
+              <div className="absolute inset-0 bg-black opacity-50"></div>
+
+              <div className="relative content">
                 <h2>02</h2>
                 <h3>Vídeos Institucionais</h3>
               </div>
             </div>
           </div>
           <div className="card">
-            <div className="box">
-              <div className="content">
+            <div
+              className="box"
+              style={{
+                backgroundImage: `url(${apre})`,
+              }}
+            >
+              <div className="absolute inset-0 bg-black opacity-50"></div>
+              <div className="relative content">
                 <h2>03</h2>
                 <h3>Apresentação de produtos</h3>
               </div>
             </div>
           </div>
           <div className="card">
-            <div className="box">
-              <div className="content">
+            <div
+              className="box"
+              style={{
+                backgroundImage: `url(${corpot})`,
+              }}
+            >
+              <div className="absolute inset-0 bg-black opacity-50"></div>
+              <div className="relative content">
                 <h2>04</h2>
                 <h3>Fotografias corporativas</h3>
               </div>
             </div>
           </div>
           <div className="card">
-            <div className="box">
-              <div className="content">
+            <div
+              className="box"
+              style={{
+                backgroundImage: `url(${treina})`,
+              }}
+            >
+              <div className="absolute inset-0 bg-black opacity-50"></div>
+              <div className="relative content">
                 <h2>05</h2>
                 <h3>Treinamentos internos</h3>
               </div>
             </div>
           </div>
           <div className="card">
-            <div className="box">
-              <div className="content">
+            <div
+              className="box"
+              style={{
+                backgroundImage: `url(${motion})`,
+              }}
+            >
+              <div className="absolute inset-0 bg-black opacity-50"></div>
+              <div className="relative content">
                 <h2>06</h2>
                 <h3>Motion Graphics</h3>
               </div>
             </div>
           </div>
           <div className="card">
-            <div className="box">
-              <div className="content">
+            <div
+              className="box"
+              style={{
+                backgroundImage: `url(${curta})`,
+              }}
+            >
+              <div className="absolute inset-0 bg-black opacity-50"></div>
+              <div className="relative content">
                 <h2>07</h2>
                 <h3>Longa e curta metragem</h3>
               </div>
             </div>
           </div>
           <div className="card">
-            <div className="box">
-              <div className="content">
+            <div
+              className="box"
+              style={{
+                backgroundImage: `url(${docs})`,
+              }}
+            >
+              <div className="absolute inset-0 bg-black opacity-50"></div>
+              <div className="relative content">
                 <h2>08</h2>
                 <h3>Documentários</h3>
               </div>
             </div>
           </div>
           <div className="card">
-            <div className="box">
-              <div className="content">
+            <div
+              className="box"
+              style={{
+                backgroundImage: `url(${aula})`,
+              }}
+            >
+              <div className="absolute inset-0 bg-black opacity-50"></div>
+              <div className="relative content">
                 <h2>09</h2>
                 <h3>Vídeo Aulas</h3>
               </div>
             </div>
           </div>
           <div className="card">
-            <div className="box">
-              <div className="content">
+            <div
+              className="box"
+              style={{
+                backgroundImage: `url(${anima})`,
+              }}
+            >
+              <div className="absolute inset-0 bg-black opacity-50"></div>
+              <div className="relative content">
                 <h2>10</h2>
                 <h3>Animações (2D e 3D)</h3>
               </div>

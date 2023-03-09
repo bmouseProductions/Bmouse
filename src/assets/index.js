@@ -47,6 +47,7 @@ import mkt from "./mktdigital.svg";
 import mktof from "./mktoff.svg";
 import perfomance from "./performance.svg";
 import produtos from "./produtosdigitais.svg";
+import tiktok from "./tiktok.svg";
 
 export {
   bill,
@@ -98,4 +99,5 @@ export {
   mktof,
   perfomance,
   produtos,
+  tiktok,
 };
