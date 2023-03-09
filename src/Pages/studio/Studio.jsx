@@ -7,7 +7,7 @@ import studio from "../../assets/logostudios.svg";
 import teste from "../../assets/comercial.webp";
 import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 import anima from "../../assets/Animação.webp";
-import apre from "../../assets/ApresentaçãodeProdutos.webp";
+import apre from "../../assets/ApresentacaodeProdutos.webp";
 import curta from "../../assets/CurtaMetragem.webp";
 import docs from "../../assets/Documentário.webp";
 import corpot from "../../assets/FotoCorporativa.webp";
