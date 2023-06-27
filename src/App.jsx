@@ -83,11 +83,11 @@ const App = () => {
                 <Route path="/giolaser" element={<Giolaser />} />
                 <Route path="/sorridentes" element={<Sorridents />} />
                 <Route path="/sorriden" element={<Pocah />} />
-                {/* <Route path="/zoomies" element={<Zoomies />} />
+                <Route path="/zoomies" element={<Zoomies />} />
                 <Route path="/whg" element={<WHG />} />
                 <Route path="/mid" element={<MID />} />
                 <Route path="/dr-luiz" element={<DrLuis />} />
-                <Route path="/cardeal" element={<Cardeal />} /> */}
+                <Route path="/cardeal" element={<Cardeal />} />
                 <Route
                   path="/patense-50-anos-jose-borges-malheiros"
                   element={<Jose />}

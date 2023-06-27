@@ -279,7 +279,7 @@ const Portfolio = () => {
                 </div>
               </a>
             </div>
-            {/*    <div className="col-span-1">
+            <div className="col-span-1">
               <a href="/zoomies">
                 <div
                   className={`${estilos.services__three_item} relative h-full`}
@@ -354,7 +354,7 @@ const Portfolio = () => {
                   </div>
                 </div>
               </a>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
