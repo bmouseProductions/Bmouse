@@ -48,6 +48,14 @@ import mktof from "./mktoff.svg";
 import perfomance from "./performance.svg";
 import produtos from "./produtosdigitais.svg";
 import tiktok from "./tiktok.svg";
+import amovacinas from "./amovacinas.svg";
+import docbiz from "./docbiz.svg";
+import indicopravoce from "./indicopravoce.svg";
+import institutosalus from "./institutosalus.svg";
+import maissorrisos from "./maissorrisos.svg";
+import mira from "./mira.svg";
+import newaligner from "./newaligner.svg";
+import salus from "./salus.svg";
 
 export {
   bill,
@@ -100,4 +108,12 @@ export {
   perfomance,
   produtos,
   tiktok,
+  amovacinas,
+  docbiz,
+  indicopravoce,
+  institutosalus,
+  maissorrisos,
+  mira,
+  newaligner,
+  salus,
 };

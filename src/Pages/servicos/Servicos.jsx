@@ -23,9 +23,9 @@ const Servicos = () => {
     <>
       <section className={`mb-44 mt-10`}>
         <div className="text-center ">
-          <div className="flex flex-row justify-between items-center w-full">
-            <h1 className="flex-1 font-poppins font-semibold ss:text-[52px] text-[52px] text-white ss:leading-[60.8px] leading-[45px]">
-              <br className="sm:block hidden" /> {"  "}
+          <div className="flex flex-col sm:flex-row justify-between items-center w-full">
+            <h1 className="flex-1 font-poppins font-semibold text-3xl sm:text-5xl text-white leading-tight sm:leading-none">
+              <br className="sm:hidden" /> {"  "}
               <span className="text-gradient">Nossos Serviços </span> {"  "}
             </h1>
           </div>
@@ -35,46 +35,46 @@ const Servicos = () => {
           <div className="container mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-6">
               <div className="col-span-1">
-                <div
-                  className={`${estilos.services__three_item} ${estilos.page}`}
-                >
-                  <img src={service1} alt="" />
+                <a href="/identidade-visual">
                   <div
-                    className={`${estilos.services__three_item_content} ${estilos.page}`}
+                    className={`${estilos.services__three_item} ${estilos.page}`}
                   >
+                    <img src={service1} alt="" />
                     <div
-                      className={`${estilos.services__three_item_content_icon}`}
+                      className={`${estilos.services__three_item_content} ${estilos.page}`}
                     >
-                      <img src={service9} alt="" className="  mx-auto" />
-                    </div>
-                    <h4>
-                      <a href="services-right-sidebar.html">
+                      <div
+                        className={`${estilos.services__three_item_content_icon}`}
+                      >
+                        <img src={service9} alt="" className="  mx-auto" />
+                      </div>
+                      <h4>
                         Identidade Visual / <br /> Marketing Offline
-                      </a>
-                    </h4>
+                      </h4>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
               <div className="col-span-1">
-                <div
-                  className={`${estilos.services__three_item} ${estilos.page}`}
-                >
-                  <img src={service2} alt="" />
+                <a href="/marketing">
                   <div
-                    className={`${estilos.services__three_item_content} ${estilos.page}`}
+                    className={`${estilos.services__three_item} ${estilos.page}`}
                   >
+                    <img src={service2} alt="" />
                     <div
-                      className={`${estilos.services__three_item_content_icon}`}
+                      className={`${estilos.services__three_item_content} ${estilos.page}`}
                     >
-                      <img src={mkt} alt="" className="mx-auto" />
-                    </div>
-                    <h4>
-                      <a href="services-right-sidebar.html">
+                      <div
+                        className={`${estilos.services__three_item_content_icon}`}
+                      >
+                        <img src={mkt} alt="" className="mx-auto" />
+                      </div>
+                      <h4>
                         Marketing Digital / <br /> Gestão De Mídias Sociais
-                      </a>
-                    </h4>
+                      </h4>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
               <div
                 className={`col-span-1 ${estilos.gradient}`}
@@ -85,125 +85,123 @@ const Servicos = () => {
                   minHeight: "340px",
                 }}
               >
-                <div
-                  className={`${estilos.services__three_item} ${estilos.page}`}
-                >
+                <a href="/endomarketing">
                   <div
-                    className={`${estilos.services__three_item_content} ${estilos.page}`}
+                    className={`${estilos.services__three_item} ${estilos.page}`}
                   >
                     <div
-                      className={`${estilos.services__three_item_content_icon}`}
+                      className={`${estilos.services__three_item_content} ${estilos.page}`}
                     >
-                      <img src={mktof} alt="" className="mx-auto" />
+                      <div
+                        className={`${estilos.services__three_item_content_icon}`}
+                      >
+                        <img src={mktof} alt="" className="mx-auto" />
+                      </div>
+                      <h4>Endomarketing</h4>
                     </div>
-                    <h4>
-                      <a href="services-right-sidebar.html">Endomarketing</a>
-                    </h4>
                   </div>
-                </div>
+                </a>
               </div>
               <div className="col-span-1">
-                <div
-                  className={`${estilos.services__three_item} ${estilos.page}`}
-                >
-                  <img src={service4} alt="" />
+                <a href="/foto-video">
                   <div
-                    className={`${estilos.services__three_item_content} ${estilos.page}`}
+                    className={`${estilos.services__three_item} ${estilos.page}`}
                   >
+                    <img src={service4} alt="" />
                     <div
-                      className={`${estilos.services__three_item_content_icon}`}
+                      className={`${estilos.services__three_item_content} ${estilos.page}`}
                     >
-                      <img src={foto} alt="" className="mx-auto" />
+                      <div
+                        className={`${estilos.services__three_item_content_icon}`}
+                      >
+                        <img src={foto} alt="" className="mx-auto" />
+                      </div>
+                      <h4>Foto e vídeo</h4>
                     </div>
-                    <h4>
-                      <a href="services-right-sidebar.html">Foto E Vídeo</a>
-                    </h4>
                   </div>
-                </div>
+                </a>
               </div>
               <div className="col-span-1">
-                <div
-                  className={`${estilos.services__three_item} ${estilos.page}`}
-                >
-                  <img src={service6} alt="" className="mx-auto" />
+                <a href="/anuncio">
                   <div
-                    className={`${estilos.services__three_item_content} ${estilos.page}`}
+                    className={`${estilos.services__three_item} ${estilos.page}`}
                   >
+                    <img src={service6} alt="" className="mx-auto" />
                     <div
-                      className={`${estilos.services__three_item_content_icon}`}
+                      className={`${estilos.services__three_item_content} ${estilos.page}`}
                     >
-                      <img src={anuncio} alt="" className="mx-auto" />
+                      <div
+                        className={`${estilos.services__three_item_content_icon}`}
+                      >
+                        <img src={anuncio} alt="" className="mx-auto" />
+                      </div>
+                      <h4>Anúncios Patrocinados</h4>
                     </div>
-                    <h4>
-                      <a href="services-right-sidebar.html">
-                        Anúncios Patrocinados
-                      </a>
-                    </h4>
                   </div>
-                </div>
+                </a>
               </div>
               <div className="col-span-1">
-                <div
-                  className={`${estilos.services__three_item} ${estilos.page}`}
-                >
-                  <img src={service7} alt="" />
+                <a href="/sites">
                   <div
-                    className={`${estilos.services__three_item_content} ${estilos.page}`}
+                    className={`${estilos.services__three_item} ${estilos.page}`}
                   >
+                    <img src={service7} alt="" />
                     <div
-                      className={`${estilos.services__three_item_content_icon}`}
+                      className={`${estilos.services__three_item_content} ${estilos.page}`}
                     >
-                      <img src={site} alt="" className="mx-auto" />
+                      <div
+                        className={`${estilos.services__three_item_content_icon}`}
+                      >
+                        <img src={site} alt="" className="mx-auto" />
+                      </div>
+                      <h4>Criação de Sites</h4>
                     </div>
-                    <h4>
-                      <a href="services-right-sidebar.html">Criação De Sites</a>
-                    </h4>
                   </div>
-                </div>
+                </a>
               </div>
               <div className="col-span-1">
-                <div
-                  className={`${estilos.services__three_item} ${estilos.page}`}
-                >
-                  <img src={service8} alt="" />
+                <a href="/acessoria">
                   <div
-                    className={`${estilos.services__three_item_content} ${estilos.page}`}
+                    className={`${estilos.services__three_item} ${estilos.page}`}
                   >
+                    <img src={service8} alt="" />
                     <div
-                      className={`${estilos.services__three_item_content_icon}`}
+                      className={`${estilos.services__three_item_content} ${estilos.page}`}
                     >
-                      <img src={service9} alt="" className="mx-auto" />
-                    </div>
-                    <h4>
-                      <a href="services-right-sidebar.html">
-                        Assessoria De <br />
+                      <div
+                        className={`${estilos.services__three_item_content_icon}`}
+                      >
+                        <img src={service9} alt="" className="mx-auto" />
+                      </div>
+                      <h4>
+                        Assessoria de <br />
                         Imprensa
-                      </a>
-                    </h4>
+                      </h4>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
               <div className="col-span-1">
-                <div
-                  className={`${estilos.services__three_item} ${estilos.page}`}
-                >
-                  <img src={service10} alt="" />
+                <a href="/bmouse">
                   <div
-                    className={`${estilos.services__three_item_content} ${estilos.page}`}
+                    className={`${estilos.services__three_item} ${estilos.page}`}
                   >
+                    <img src={service10} alt="" />
                     <div
-                      className={`${estilos.services__three_item_content_icon}`}
+                      className={`${estilos.services__three_item_content} ${estilos.page}`}
                     >
-                      <img src={service9} alt="" className="mx-auto" />
-                    </div>
-                    <h4>
-                      <a href="services-right-sidebar.html">
-                        BMouse E O Futebol <br />
+                      <div
+                        className={`${estilos.services__three_item_content_icon}`}
+                      >
+                        <img src={service9} alt="" className="mx-auto" />
+                      </div>
+                      <h4>
+                        BMouse e o Futebol <br />
                         Brasileiro
-                      </a>
-                    </h4>
+                      </h4>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
           </div>

@@ -90,3 +90,18 @@
 .snip1574:hover {
   transform: scale(1.1);
 }
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(2rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.back-to-top {
+  animation: slide-up 0.5s ease-out;
+}

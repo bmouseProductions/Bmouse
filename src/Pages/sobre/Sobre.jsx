@@ -9,9 +9,9 @@ const Sobre = () => {
   return (
     <>
       <div className="text-center ">
-        <div className="flex flex-row justify-between items-center w-full mb-6">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[52px] text-[52px] text-white ss:leading-[60.8px] leading-[45px]">
-            <br className="sm:block hidden" /> {"  "}
+        <div className="flex flex-col sm:flex-row justify-between items-center w-full mb-6">
+          <h1 className="flex-1 font-poppins font-semibold text-3xl sm:text-5xl text-white leading-tight sm:leading-none">
+            <br className="sm:hidden" /> {"  "}
             <span className="text-gradient">Sobre nós </span> {"  "}
           </h1>
         </div>
@@ -23,19 +23,21 @@ const Sobre = () => {
             <span className="bg-[#e05673] rounded-bl-2xl p-1">somos nós?</span>
           </h2>
           <p className={`${styles.paragraph} max-w-[470px] mt-5 text-left`}>
-            Somos uma agência de criatividade, criada por Tom Gonçalves e
-            Roberta Almeida na “terra do rato”. A Disney é o lugar em que sonhos
-            se tornam reais, e, talvez, por ter nascido lá, sejamos
-            especialistas em emocionar tantas pessoas ao tornar realidade o que
-            antes era inimaginável. A BMouse retorna ao Brasil revolucionando o
-            tradicional recurso de contar histórias, mudando destinos e
-            construindo o que vem depois do fim.
+            Na terra onde a magia se torna realidade, Tom Gonçalves e Roberta
+            Almeida fundaram a Bmouse, uma agência de criatividade que sabe como
+            emocionar. Inspirados pela Disney, revolucionamos a arte de contar
+            histórias e transformamos o impossível em possível. Através da
+            Bmouse, mudamos destinos e construímos novos futuros. Somos a
+            agência que constrói o que vem depois do fim, levando nossos
+            clientes a novos patamares e superando todas as expectativas.
           </p>
           <p className={`${styles.paragraph} max-w-[470px] mt-5 text-left`}>
-            Tom e Roberta conhecem os bastidores do show business, sabem que é
-            ali onde a magia acontece e decidiram juntos impulsionar a carreira
-            de quem confia em seu trabalho. Eles sabem que contar uma história é
-            fazer com que mais pessoas contribuam para seu sonho se tornar real.
+            Tom e Roberta têm experiência nos bastidores do show business, sabem
+            que é ali onde a verdadeira magia acontece e decidiram unir forças
+            para impulsionar as carreiras de seus clientes. Para eles, a chave
+            para o sucesso é contar uma história de forma envolvente e
+            inspiradora, fazendo com que cada vez mais pessoas contribuam para
+            transformar um sonho em realidade.
           </p>
         </div>
         <div className={layout.sectionImgReverse}>

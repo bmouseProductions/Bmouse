@@ -5,15 +5,17 @@ import { footerLinks, socialMedia } from "../constants";
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col `}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
-      <div className="flex-[1] flex flex-col justify-start mr-10">
-        <img
-          src={logo}
-          alt="hoobank"
-          className="w-[266px] h-[72.14px] object-contain"
-        />
+      <div className="relative z-10 flex-[1] flex flex-col justify-start mr-10">
+        <a href="/">
+          <img
+            src={logo}
+            alt="hoobank"
+            className="w-[266px] h-[72.14px] object-contain"
+          />
+        </a>
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
-          Entre no foguete com a gente e venha conhecer o verdadeiro Marketing
-          Digital.
+          Embarque na jornada do marketing digital com a gente e alcance as
+          estrelas!
         </p>
       </div>
 

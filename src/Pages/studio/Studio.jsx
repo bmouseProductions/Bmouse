@@ -29,10 +29,9 @@ const Studio = () => {
               </p>
               <p className=" text-white text-sm sm:text-lg max-w-[450px] text-left mt-2 ">
                 A BMouse, além do seu vasto arsenal de equipamentos para
-                produções audiovisuais, ainda conta com um set de filmagens
-                completo. Dentro dos Studios BMouse você encontra tudo que é
-                necessário para a realização da sua filmagem, edição e
-                sonoplastia.
+                produções audiovisuais, conta com um set de filmagens completo.
+                Dentro dos Studios BMouse, você encontra tudo que é necessário
+                para a realização da sua filmagem, edição e sonoplastia.
               </p>
             </div>
             <div className="text-white flex-1 mt-4 sm:mt-0 ml-10 flex ">
@@ -59,7 +58,7 @@ const Studio = () => {
             equipado com tecnologia de ponta e uma estrutura completa para
             produzir conteúdos de alta qualidade. E o melhor de tudo: podemos
             realizar tudo isso de forma remota, com toda a eficiência e
-            agilidade que sua empresa‟precisa.
+            agilidade que sua empresa precisa.
           </p>
         </div>
         <div className={layout.sectionImgReverse}>
@@ -109,7 +108,7 @@ const Studio = () => {
               <li>
                 {" "}
                 <CheckCircleOutlineIcon sx={{ color: "#90375c" }} /> BlackMagic
-                Cinema Pocket - 4K (Cinema Camera)
+                Cinema Pocket - 4K (Cinema Câmera)
               </li>
               <li>
                 {" "}
@@ -185,12 +184,10 @@ const Studio = () => {
       </section>
 
       <section className="cards mt-20">
-        <div className="flex flex-row justify-between items-center w-full text-center">
+        <div className="flex flex-col sm:flex-row justify-between items-center w-full text-center">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[32px] text-white ss:leading-[100.8px] leading-[35px]">
-            Conteúdos <br className="sm:block hidden" /> {"  "}
+            Conteúdos <br className="sm:hidden" /> {"  "}
             <span className="text-gradient">Audiovisuais </span> {"  "}
-            em que somos <br className="sm:block hidden" /> {"  "}
-            <span className="text-gradient">especialistas </span> {"  "}
           </h1>
         </div>
         <div className="container">

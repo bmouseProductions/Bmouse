@@ -27,9 +27,9 @@ const FeatureCard = ({ icon, title, content, index }) => (
 const Business = () => (
   <>
     <div className="text-center">
-      <div className="flex flex-row justify-between items-center w-full">
-        <h1 className="flex-1 font-poppins font-semibold ss:text-[52px] text-[52px] text-white ss:leading-[60.8px] leading-[45px]">
-          <br className="sm:block hidden" /> {"  "}
+      <div className="flex flex-col sm:flex-row justify-between items-center w-full">
+        <h1 className="flex-1 font-poppins font-semibold text-3xl sm:text-5xl text-white leading-tight sm:leading-none">
+          <br className="sm:hidden" /> {"  "}
           <span className="text-gradient">Nossos Serviços </span> {"  "}
         </h1>
       </div>

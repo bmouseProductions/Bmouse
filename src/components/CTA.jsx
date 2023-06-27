@@ -8,7 +8,7 @@ const CTA = () => {
     >
       <div className="flex-1 flex flex-col">
         <h2 className={`${styles.heading2} text-left`}>
-          Quer Decolar Seu Projeto?
+          Quer decolar o seu projeto?
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5 text-left`}>
           Seus potenciais clientes já estão esperando pelo seu negócio, nós

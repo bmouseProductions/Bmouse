@@ -14,6 +14,7 @@ import service12 from "../../assets/04-800x500.jpg";
 import service13 from "../../assets/03-800x500.jpg";
 import service14 from "../../assets/Fotos-Servicos-08-1.png";
 import service15 from "../../assets/Leoni-com-Tania-Mara.jpg";
+import service16 from "../../assets/IVETE_3682.jpg";
 
 import estilos from "./index.module.css";
 
@@ -21,14 +22,14 @@ const Portfolio = () => {
   return (
     <section className={`mb-44 mt-10`}>
       <div className="text-center ">
-        <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[52px] text-[52px] text-white ss:leading-[60.8px] leading-[45px]">
-            <br className="sm:block hidden" /> {"  "}
+        <div className="flex flex-col sm:flex-row justify-between items-center w-full">
+          <h1 className="flex-1 font-poppins font-semibold text-3xl sm:text-5xl text-white leading-tight sm:leading-none">
+            <br className="sm:hidden" /> {"  "}
             <span className="text-gradient">Portfólio </span> {"  "}
           </h1>
         </div>
         <p className={`${styles.paragraph} text-center `}>
-          Conheça alguns projetos que já realizamos
+          Conheça alguns dos nossos projetos.
         </p>
       </div>
 
@@ -36,187 +37,324 @@ const Portfolio = () => {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-6 items-stretch">
             <div className="col-span-1">
-              <div
-                className={`${estilos.services__three_item} relative h-full`}
-              >
-                <img src={service1} className="w-full h-full object-cover" />
+              <a href="/mirian-gontijo">
                 <div
-                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
+                  className={`${estilos.services__three_item} relative h-full`}
                 >
-                  <h4>Relançamento Mirían Gontijo Advogados</h4>
+                  <img src={service1} className="w-full h-full object-cover" />
+                  <div
+                    style={{ backgroundColor: "#4bc0ee" }}
+                    className={`absolute bottom-0 left-0 w-full p-2 text-center text-white `}
+                  >
+                    <h4>Relançamento Mirían Gontijo Advogados</h4>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="col-span-1">
-              <div
-                className={`${estilos.services__three_item} relative h-full`}
-              >
-                <img src={service2} className="w-full h-full object-cover" />
+              <a href="/pets-mellon">
                 <div
-                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
+                  className={`${estilos.services__three_item} relative h-full`}
                 >
-                  <h4>Campanha Pets Mellon</h4>
+                  <img src={service2} className="w-full h-full object-cover" />
+                  <div
+                    style={{ backgroundColor: "#4bc0ee" }}
+                    className={`absolute bottom-0 left-0 w-full p-2 text-center text-white`}
+                  >
+                    <h4>Campanha Pets Mellon</h4>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="col-span-1">
-              <div
-                className={`${estilos.services__three_item} relative h-full`}
-              >
-                <img src={service3} className="w-full h-full object-cover" />
+              <a href="/giolaser">
                 <div
-                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
+                  className={`${estilos.services__three_item} relative h-full`}
                 >
-                  <h4>Campanha Experimenta GiOlaser</h4>
+                  <img src={service3} className="w-full h-full object-cover" />
+                  <div
+                    style={{ backgroundColor: "#4bc0ee" }}
+                    className={`absolute bottom-0 left-0 w-full p-2 text-center text-white `}
+                  >
+                    <h4>Campanha Experimenta GiOlaser</h4>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="col-span-1">
-              <div
-                className={`${estilos.services__three_item} relative h-full`}
-              >
-                <img src={service4} className="w-full h-full object-cover" />
+              <a href="/empresa-do-bem">
                 <div
-                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
+                  className={`${estilos.services__three_item} relative h-full`}
                 >
-                  <h4>Campanha Patense – Uma Empresa Do Bem</h4>
+                  <img src={service4} className="w-full h-full object-cover" />
+                  <div
+                    style={{ backgroundColor: "#4bc0ee" }}
+                    className={`absolute bottom-0 left-0 w-full p-2 text-center text-white `}
+                  >
+                    <h4>Campanha Patense – Uma Empresa Do Bem</h4>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="col-span-1">
-              <div
-                className={`${estilos.services__three_item} relative h-full`}
-              >
-                <img src={service5} className="w-full h-full object-cover" />
+              <a href="/homenagem">
                 <div
-                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
+                  className={`${estilos.services__three_item} relative h-full`}
                 >
-                  <h4>
-                    Vídeo de Homenagem a Grande Colaborador do Grupo Patense:
-                  </h4>
+                  <img src={service5} className="w-full h-full object-cover" />
+                  <div
+                    style={{ backgroundColor: "#4bc0ee" }}
+                    className={`absolute bottom-0 left-0 w-full p-2 text-center text-white `}
+                  >
+                    <h4>
+                      Vídeo de homenagem a um grande colaborador do Grupo
+                      Patense.
+                    </h4>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="col-span-1">
-              <div
-                className={`${estilos.services__three_item} relative h-full`}
-              >
-                <img src={service6} className="w-full h-full object-cover" />
+              <a href="/haras-nimbus-de-prata">
                 <div
-                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
+                  className={`${estilos.services__three_item} relative h-full`}
                 >
-                  <h4>Haras Nimbus de Prata</h4>
+                  <img src={service6} className="w-full h-full object-cover" />
+                  <div
+                    style={{ backgroundColor: "#4bc0ee" }}
+                    className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br `}
+                  >
+                    <h4>Haras Nimbus de Prata</h4>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="col-span-1">
-              <div
-                className={`${estilos.services__three_item} relative h-full`}
-              >
-                <img src={service7} className="w-full h-full object-cover" />
+              <a href="/sorriden">
                 <div
-                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
+                  className={`${estilos.services__three_item} relative h-full`}
                 >
-                  <h4>Sorriden – Pocahontas</h4>
+                  <img src={service7} className="w-full h-full object-cover" />
+                  <div
+                    style={{ backgroundColor: "#4bc0ee" }}
+                    className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br `}
+                  >
+                    <h4>Sorriden – Pocahontas</h4>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="col-span-1">
-              <div
-                className={`${estilos.services__three_item} relative h-full`}
-              >
-                <img src={service8} className="w-full h-full object-cover" />
+              <a href="/cafe-nova-geracao">
                 <div
-                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
+                  className={`${estilos.services__three_item} relative h-full`}
                 >
-                  <h4>Café Nova Geração – Combina mais com o que?</h4>
+                  <img src={service8} className="w-full h-full object-cover" />
+                  <div
+                    style={{ backgroundColor: "#4bc0ee" }}
+                    className={`absolute bottom-0 left-0 w-full p-2 text-center text-white`}
+                  >
+                    <h4>Café Nova Geração – Combina mais com o que?</h4>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="col-span-1">
-              <div
-                className={`${estilos.services__three_item} relative h-full`}
-              >
-                <img src={service9} className="w-full h-full object-cover" />
+              <a href="/casa">
                 <div
-                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
+                  className={`${estilos.services__three_item} relative h-full`}
                 >
-                  <h4>Casa – Centro de Atenção à Saúde</h4>
+                  <img src={service9} className="w-full h-full object-cover" />
+                  <div
+                    style={{ backgroundColor: "#4bc0ee" }}
+                    className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br `}
+                  >
+                    <h4>Casa – Centro de Atenção à Saúde</h4>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="col-span-1">
-              <div
-                className={`${estilos.services__three_item} relative h-full`}
-              >
-                <img src={service10} className="w-full h-full object-cover" />
+              <a href="/Dra">
                 <div
-                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
+                  className={`${estilos.services__three_item} relative h-full`}
                 >
-                  <h4>Dra. Elisângela- Médica para Família</h4>
+                  <img src={service10} className="w-full h-full object-cover" />
+                  <div
+                    style={{ backgroundColor: "#4bc0ee" }}
+                    className={`absolute bottom-0 left-0 w-full p-2 text-center text-white `}
+                  >
+                    <h4>Dra. Elisângela- Médica para Família</h4>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="col-span-1">
-              <div
-                className={`${estilos.services__three_item} relative h-full`}
-              >
-                <img src={service11} className="w-full h-full object-cover" />
+              <a href="/clenio">
                 <div
-                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
+                  className={`${estilos.services__three_item} relative h-full`}
                 >
-                  <h4>Clênio Gonçalves- Dia dos Pais</h4>
+                  <img src={service11} className="w-full h-full object-cover" />
+                  <div
+                    style={{ backgroundColor: "#4bc0ee" }}
+                    className={`absolute bottom-0 left-0 w-full p-2 text-center text-white`}
+                  >
+                    <h4>Clênio Gonçalves- Dia dos Pais</h4>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="col-span-1">
-              <div
-                className={`${estilos.services__three_item} relative h-full`}
-              >
-                <img src={service12} className="w-full h-full object-cover" />
+              <a href="/sorriso">
                 <div
-                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
+                  className={`${estilos.services__three_item} relative h-full`}
                 >
-                  <h4>Sorridents – A Força de Um Sorriso</h4>
+                  <img src={service12} className="w-full h-full object-cover" />
+                  <div
+                    style={{ backgroundColor: "#4bc0ee" }}
+                    className={`absolute bottom-0 left-0 w-full p-2 text-center text-white  `}
+                  >
+                    <h4>Sorridents – A Força de Um Sorriso</h4>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="col-span-1">
-              <div
-                className={`${estilos.services__three_item} relative h-full`}
-              >
-                <img src={service13} className="w-full h-full object-cover" />
+              <a href="/sem-limites-uma-historia-do-grupo-patense">
                 <div
-                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
+                  className={`${estilos.services__three_item} relative h-full`}
                 >
-                  <h4>Sem Limites – Uma História do Grupo Patense</h4>
+                  <img src={service13} className="w-full h-full object-cover" />
+                  <div
+                    style={{ backgroundColor: "#4bc0ee" }}
+                    className={`absolute bottom-0 left-0 w-full p-2 text-center text-white `}
+                  >
+                    <h4>Sem Limites – Uma História do Grupo Patense</h4>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="col-span-1">
-              <div
-                className={`${estilos.services__three_item} relative h-full`}
-              >
-                <img src={service14} className="w-full h-full object-cover" />
+              <a href="/patense-50-anos-jose-borges-malheiros">
                 <div
-                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
+                  className={`${estilos.services__three_item} relative h-full`}
                 >
-                  <h4>Patense 50 anos- José Borges Malheiros</h4>
+                  <img src={service14} className="w-full h-full object-cover" />
+                  <div
+                    style={{ backgroundColor: "#4bc0ee" }}
+                    className={`absolute bottom-0 left-0 w-full p-2 text-center text-white `}
+                  >
+                    <h4>Patense 50 anos- José Borges Malheiros</h4>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="col-span-1">
-              <div
-                className={`${estilos.services__three_item} relative h-full`}
-              >
-                <img src={service15} className="w-full h-full object-cover" />
+              <a href="/leoni-alimentos">
                 <div
-                  className={`absolute bottom-0 left-0 w-full p-2 text-center text-white bg-gradient-to-br from-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] `}
+                  className={`${estilos.services__three_item} relative h-full`}
                 >
-                  <h4>Leoni Alimentos – Campanha com Tânia Mara</h4>
+                  <img src={service15} className="w-full h-full object-cover" />
+                  <div
+                    style={{ backgroundColor: "#4bc0ee" }}
+                    className={`absolute bottom-0 left-0 w-full p-2 text-center text-white  `}
+                  >
+                    <h4>Leoni Alimentos – Campanha com Tânia Mara</h4>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
+            <div className="col-span-1">
+              <a href="/sorridentes">
+                <div
+                  className={`${estilos.services__three_item} relative h-full`}
+                >
+                  <img src={service16} className="w-full h-full object-cover" />
+                  <div
+                    style={{ backgroundColor: "#4bc0ee" }}
+                    className={`absolute bottom-0 left-0 w-full p-2 text-center text-white  `}
+                  >
+                    <h4>Sorridentes - Campanha Alegria com Ivete Sangalo</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+            {/*    <div className="col-span-1">
+              <a href="/zoomies">
+                <div
+                  className={`${estilos.services__three_item} relative h-full`}
+                >
+                  <img src={service16} className="w-full h-full object-cover" />
+                  <div
+                    style={{ backgroundColor: "#4bc0ee" }}
+                    className={`absolute bottom-0 left-0 w-full p-2 text-center text-white  `}
+                  >
+                    <h4>Zoomies - Testandoo</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="col-span-1">
+              <a href="/whg">
+                <div
+                  className={`${estilos.services__three_item} relative h-full`}
+                >
+                  <img src={service16} className="w-full h-full object-cover" />
+                  <div
+                    style={{ backgroundColor: "#4bc0ee" }}
+                    className={`absolute bottom-0 left-0 w-full p-2 text-center text-white  `}
+                  >
+                    <h4>WHG - Testandoo</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="col-span-1">
+              <a href="/mid">
+                <div
+                  className={`${estilos.services__three_item} relative h-full`}
+                >
+                  <img src={service16} className="w-full h-full object-cover" />
+                  <div
+                    style={{ backgroundColor: "#4bc0ee" }}
+                    className={`absolute bottom-0 left-0 w-full p-2 text-center text-white `}
+                  >
+                    <h4>MID - Testandoo</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="col-span-1">
+              <a href="/dr-luis">
+                <div
+                  style={{ backgroundColor: "#4bc0ee" }}
+                  className={`${estilos.services__three_item} relative h-full`}
+                >
+                  <img src={service16} className="w-full h-full object-cover" />
+                  <div
+                    style={{ backgroundColor: "#4bc0ee" }}
+                    className={`absolute bottom-0 left-0 w-full p-2 text-center text-white `}
+                  >
+                    <h4>Dr Luis - Testandoo</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="col-span-1">
+              <a href="/cardeal">
+                <div
+                  className={`${estilos.services__three_item} relative h-full`}
+                >
+                  <img src={service16} className="w-full h-full object-cover" />
+                  <div
+                    style={{ backgroundColor: "#4bc0ee" }}
+                    className={`absolute bottom-0 left-0 w-full p-2 text-center text-white `}
+                  >
+                    <h4>Cardeal - Testandoo</h4>
+                  </div>
+                </div>
+              </a>
+            </div> */}
           </div>
         </div>
       </div>

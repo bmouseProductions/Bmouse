@@ -2,7 +2,7 @@
   "name": "bmouse",
   "private": true,
   "version": "0.0.0",
-  "homepage": "bmouse1/",
+  "homepage": "https://www.bmouseproductions.com/",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,15 +12,18 @@
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@mui/icons-material": "^5.11.9",
     "@mui/material": "^5.11.10",
     "@trendyol-js/react-carousel": "^3.0.2",
+    "axios": "^1.3.4",
     "react": "^18.2.0",
-    "react-animated-stars": "^0.1.2",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-paginate": "^8.1.4",
     "react-router-dom": "^6.8.2",
     "react-slick": "^0.29.0",
-    "react-starfield-animation": "^1.0.1",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {

@@ -37,6 +37,14 @@ import {
   perfomance,
   tiktok,
   dev,
+  amovacinas,
+  docbiz,
+  indicopravoce,
+  institutosalus,
+  maissorrisos,
+  mira,
+  newaligner,
+  salus,
 } from "../assets";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import EmailIcon from "@mui/icons-material/Email";
@@ -67,10 +75,14 @@ export const navLinks = [
     id: "/portfolio",
     title: "Portfólio",
   },
-  {
+  /*   {
+    id: "/trabalhe-conosco",
+    title: "Trabalhe conosco",
+  }, */
+  /*   {
     id: "/blog",
     title: "Blog",
-  },
+  }, */
 ];
 
 export const features = [
@@ -92,7 +104,7 @@ export const features = [
   {
     id: "feature-8",
     icon: perfomance,
-    title: "Performance",
+    title: "Público-alvo",
     content:
       "Acertamos precisamente o público alvo de nossas campanhas e entregamos os melhores números e resultados.",
   },
@@ -119,13 +131,13 @@ export const services = [
     icon: mkt,
     title: "Marketing Digital",
     content:
-      "Por mais rápidas que sejam as mudanças no mundo digital, estamos sempre um passo à frente, prevendo tendências.",
+      "Enquanto o mundo digital evolui em ritmo acelerado, antecipamos tendências e impulsionamos nossos clientes rumo ao sucesso.",
   },
   {
     id: "feature-7",
     icon: dev,
     title: "Programação",
-    content: "Automatização das postagens com garantia de prazo e qualidad",
+    content: "Automatização das postagens com a garantia de prazo e qualidade.",
   },
   {
     id: "feature-5",
@@ -316,5 +328,37 @@ export const clients = [
   {
     id: "client-21",
     logo: zoomies,
+  },
+  {
+    id: "client-22",
+    logo: amovacinas,
+  },
+  {
+    id: "client-23",
+    logo: docbiz,
+  },
+  {
+    id: "client-24",
+    logo: indicopravoce,
+  },
+  {
+    id: "client-25",
+    logo: institutosalus,
+  },
+  {
+    id: "client-26",
+    logo: maissorrisos,
+  },
+  {
+    id: "client-27",
+    logo: mira,
+  },
+  {
+    id: "client-28",
+    logo: newaligner,
+  },
+  {
+    id: "client-29",
+    logo: salus,
   },
 ];

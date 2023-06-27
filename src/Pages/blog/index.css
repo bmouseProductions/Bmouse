@@ -120,3 +120,29 @@
   align-items: center;
   margin-right: 0.5rem;
 }
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.pagination li {
+  display: inline-block;
+  margin-right: 0.5rem;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  background-color: #fff;
+  color: #333;
+  font-weight: 600;
+}
+
+.pagination li.active {
+  background-color: #333;
+  color: #fff;
+}
+
+.pagination li:hover:not(.active) {
+  background-color: #eee;
+  cursor: pointer;
+}
